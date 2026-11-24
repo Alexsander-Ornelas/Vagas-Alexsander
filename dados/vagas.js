@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T12:20:00-03:00",
+ "atualizado_em": "2026-11-24T11:55:00-03:00",
  "vagas": [
   {
    "id": "linkedin-4494330888",
