@@ -1,7 +1,85 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T01:57:09-03:00",
+ "atualizado_em": "2026-11-24T12:20:00-03:00",
  "vagas": [
+  {
+   "id": "linkedin-4494330888",
+   "dia": "2026-11-24",
+   "titulo": "Data Engineer (Remote)",
+   "empresa": "Joblet-AI",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494330888/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494330888/"
+   },
+   "descricao": "Role Type: Project-based (remote, asynchronous).\nData engineering professionals with 1–3 years of work experience are invited to contribute to short-term remote projects involving real-world data pipeline and infrastructure challenges.\nScope may include data engineering, data infrastructure, ETL development or analytics engineering tasks.\nRequired: 1–3 years of work experience as a data engineering professional.\nProject period: 2–3 weeks; 10–20 hours per week for accepted projects.",
+   "tipo": "engenheiro",
+   "internacional": true,
+   "salario": {
+    "valor": "Não divulgado (projeto de 2–3 semanas, 10–20 h/semana)",
+    "origem": "pesquisado",
+    "fonte_nome": "Trabalho por projeto; a vaga não informa valor",
+    "fonte_url": ""
+   },
+   "curriculo": "curriculos/linkedin-4494330888.pdf"
+  },
+  {
+   "id": "linkedin-4494328873",
+   "dia": "2026-11-24",
+   "titulo": "BI Developer (Remote)",
+   "empresa": "Joblet-AI",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494328873/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494328873/"
+   },
+   "descricao": "Role Type: Contractor (remote, asynchronous).\nBI and data visualization experts are invited to build dashboard and reporting scenarios for AI evaluation: author realistic problems, write reference answers and assess whether model responses are accurate.\nScope: author BI scenarios covering data models, dashboard builds and rollout; validate dashboard data with SQL; grade model outputs for analytical accuracy and chart integrity.\nRequired: at least 2 years of professional BI or analytics experience; hands-on depth in a BI tool such as Tableau, Power BI or Looker; strong SQL; clear writing.\nCompensation: $50–$90 per hour, paid weekly; minimum 10 hours per week.",
+   "tipo": "analista",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 50 – US$ 90/hora (contrato, mínimo 10 h/semana)",
+    "origem": "divulgado",
+    "fonte_nome": "Descrição da vaga",
+    "fonte_url": ""
+   },
+   "curriculo": "curriculos/linkedin-4494328873.pdf"
+  },
+  {
+   "id": "linkedin-4478511422",
+   "dia": "2026-11-24",
+   "titulo": "Data Platform Engineer",
+   "empresa": "Chainlink Labs",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4478511422/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4478511422/"
+   },
+   "descricao": "The Data Platform Engineer will own the reliability and operational performance of large-scale distributed systems and data infrastructure (remote-first).\nYour Impact:\n- Deliver the streaming and data infrastructure required by product teams, translating requirements into reliable Redpanda/Kafka and Flink capabilities.\n- Maintain 99.9% availability for critical data infrastructure; scale streaming and Kubernetes workloads and define SLIs.\n- Reduce recurring incidents and manual work through automation, actionable alerts and tested recovery procedures.\n- Reduce cost to serve: connect Redpanda, Flink and BigQuery usage to consumers.\nInfrastructure changes are managed through version-controlled practices. See the full description at the link.",
+   "tipo": "engenheiro",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4478511422.pdf"
+  },
   {
    "id": "linkedin-4491708333",
    "dia": "2026-11-23",
@@ -27,6 +105,32 @@ window.VAGAS_DADOS = {
     "LinkedIn": "https://www.linkedin.com/jobs/view/4491708333/"
    },
    "internacional": true
+  },
+  {
+   "id": "linkedin-4483573521",
+   "dia": "2026-11-23",
+   "titulo": "Power BI Developer",
+   "empresa": "Tata Consultancy Services",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4483573521/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4483573521/"
+   },
+   "descricao": "We are looking for Power BI Developer who wants to learn and transform his career.\nKey responsibilities:\n- Lead the development and evolution of analytical solutions using Power BI, SQL, and Databricks.\n- Translate business requirements into scalable, high-quality technical solutions.\n- Design and maintain data models, pipelines, and analytical architectures.\n- Automate processes and optimize reporting workflows, reducing manual activities.\n- Ensure data governance, quality, performance, and security.\n- Lead implementations, User Acceptance Testing (UAT), deployments, and technical documentation.\n- Serve as a technical point of reference between Business, Finance, and Technology teams.\nMandatory Skills: Advanced English; Power BI; SQL Advanced; Databricks; Python / PySpark; Technical Leadership.\nBenefits (Brazil): health and dental insurance, life insurance, meal voucher, Totalpass, certification reimbursement.",
+   "tipo": "analista",
+   "internacional": true,
+   "salario": {
+    "valor": "R$ 10.000 – R$ 13.300/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Mesma faixa usada para a outra vaga de dados da TCS no site (a vaga não divulga salário)",
+    "fonte_url": ""
+   },
+   "curriculo": "curriculos/linkedin-4483573521.pdf"
   },
   {
    "id": "linkedin-4493793027",
