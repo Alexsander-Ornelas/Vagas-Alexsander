@@ -21,10 +21,10 @@ window.VAGAS_DADOS = {
    "tipo": "engenheiro",
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 9.400 – R$ 9.900/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Levels.fyi: TCS no Brasil, cargo Software Engineer (inclui Data Engineer), mediana de R$ 113K a R$ 118K/ano; a empresa não divulga faixa",
+    "fonte_url": "https://www.levels.fyi/en-gb/companies/tata-consultancy-services/salaries/software-engineer/locations/brazil"
    },
    "curriculo": "curriculos/linkedin-4494150447.pdf"
   },
