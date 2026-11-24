@@ -111,6 +111,11 @@
   function render() {
     const dia = $("dia").value, og = $("origem").value, q = $("busca").value.trim().toLowerCase(), ct = $("contrato").value, pf = $("plataforma").value, lc = $("local").value;
     const bsb = v => /Bras[ií]lia/.test(v.local || "");
+    // Ordem: data mais recente; no mesmo dia, Brasília (remoto, híbrido, presencial), depois Brasil, por último internacional; CLT antes de PJ
+    const grupo = v => v.internacional ? 5 : !/Bras[ií]lia/.test(v.local || "") ? 4
+      : /remot/i.test(v.modalidade || "") ? 0 : /h[ií]brid/i.test(v.modalidade || "") ? 1 : /presencial/i.test(v.modalidade || "") ? 2 : 3;
+    const contr = v => v.contrato === "CLT" ? 0 : v.contrato === "PJ" ? 1 : 2;
+    const ordem = (a, b) => (b.dia || "").localeCompare(a.dia || "") || grupo(a) - grupo(b) || contr(a) - contr(b) || (a.empresa || "").localeCompare(b.empresa || "");
     const lista = DADOS.vagas.filter(v =>
       (dia === "*" || v.dia === dia) &&
       (!og || (og === "intl") === !!v.internacional) &&
@@ -118,7 +123,7 @@
       (!pf || (v.plataformas || []).includes(pf)) &&
       (!lc || (lc === "bsb") === bsb(v)) &&
       (!q || [v.titulo, v.empresa, v.descricao].join(" ").toLowerCase().includes(q))
-    );
+    ).sort(ordem);
     $("count").innerHTML = `<b>${lista.length}</b> vaga${lista.length === 1 ? "" : "s"} encontrada${lista.length === 1 ? "" : "s"}`;
     $("lista").innerHTML = lista.length ? lista.map(v => `
       <article class="vaga">
