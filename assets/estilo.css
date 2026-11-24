@@ -200,3 +200,10 @@ footer.rodape a:last-child:hover { color:var(--acid); }
 footer.rodape { max-width:1180px; margin:0 auto; padding:29px 24px; }
 @media (max-width:1100px) { .bar .meta { display:none; } }
 @media (max-width:800px) { .bar { padding:14px 20px; } footer.rodape { padding:24px 20px; } }
+
+/* Botão "Atualizar" (abre a busca programada no Claude para rodar agora), mesmo estilo do selo "Atualizado em" */
+.bar .atualizar { margin-left:28px; padding:8px 14px; border:1px solid #d7f51055; border-radius:999px; color:var(--acid); background:#d7f5100d;
+  font:500 10px "DM Mono", monospace; letter-spacing:1px; text-transform:uppercase; text-decoration:none; white-space:nowrap; cursor:pointer; transition:background .2s, border-color .2s; }
+.bar .atualizar:hover { background:#d7f51022; border-color:var(--acid); }
+.bar .atualizar + .meta { margin-left:10px; }
+@media (max-width:800px) { .bar .atualizar { margin-left:auto; margin-right:10px; padding:7px 12px; } .bar .menu-btn { margin-left:0; } }
