@@ -21,10 +21,10 @@ window.VAGAS_DADOS = {
    "tipo": "engenheiro",
    "internacional": true,
    "salario": {
-    "valor": "R$ 9.400 – R$ 9.900/mês",
+    "valor": "R$ 10.000 – R$ 13.300/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Levels.fyi: TCS no Brasil, cargo Software Engineer (inclui Data Engineer), mediana de R$ 113K a R$ 118K/ano; a empresa não divulga faixa",
-    "fonte_url": "https://www.levels.fyi/en-gb/companies/tata-consultancy-services/salaries/software-engineer/locations/brazil"
+    "fonte_nome": "Vaga de Azure Data Engineer da TCS no Brasil com faixa de R$ 120–160 mil/ano (JobLeads); mesma faixa das outras vagas de dados da TCS no site",
+    "fonte_url": "https://www.jobleads.com/br/job/azure-data-engineer--olinda--e40522c384852353a030e0539266a5a4a"
    },
    "curriculo": "curriculos/linkedin-4494150447.pdf"
   },
@@ -151,10 +151,10 @@ window.VAGAS_DADOS = {
    "tipo": "analista",
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 8.000 – R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4494382462.pdf"
   },
@@ -354,10 +354,10 @@ window.VAGAS_DADOS = {
    ],
    "link": "https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI5MTY0ODksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
    "salario": {
-    "valor": "R$ 5.000 – R$ 7.000/mês",
+    "valor": "R$ 8.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado (JobRise 2026; sem dado público da SysMap)",
-    "fonte_url": "https://jobrise.io/pt/blog/salario-engenheiro-de-dados-brasil-2026/"
+    "fonte_nome": "Glassdoor: Sysmap, cargo Engenheiro de Dados (1 salários informados; faixa típica); todos os níveis",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Sysmap-Engenheiro-De-Dados-Sal%C3%A1rios-E2751670_D_KO7,26.htm"
    },
    "descricao": "Você é apaixonado(a) por tecnologia e inovação? No Grupo SysMap – que reúne SysMapSolutions, TriggoLabs e triggo.ai – acreditamos que grandes resultados nascem de pessoas incríveis. Somos uma empresa brasileira de tecnologia que, desde 1999, ajuda organizações a superar desafios complexos e acelerar sua transformação digital. Nossa atuação abrange diversos segmentos, como Telecom, Varejo, Educação, Financeiro, Indústria/Cosméticos e Energia.\n\nResponsabilidades e atribuições\n- Projetar, desenvolver e manter pipelines de ingestão e processamento de dados;\n- Estruturar processos de ETL/ELT;\n- Integrar dados provenientes de múltiplas fontes internas e externas;\n- Garantir a qualidade, a integridade, a segurança e a governança dos dados;\n- Otimizar a performance de bases e fluxos de dados;\n- Documentar arquiteturas e processos;\n- Apoiar as áreas de BI, Analytics e Ciência de Dados;\n- Atuar na resolução de incidentes relacionados a dados;\n- Propor melhorias na arquitetura de dados.\n\nRequisitos e qualificações\n- Formação em TI ou Engenharia;\n- Experiência com bancos de dados relacionais e não relacionais;\n- Conhecimento em arquitetura de dados;\n- Programação para processamento de dados;\n- Visão analítica e sistêmica;\n- Organização e documentação técnica.",
    "curriculo": "curriculos/gupy-12916489.pdf",
@@ -381,10 +381,10 @@ window.VAGAS_DADOS = {
    ],
    "link": "https://www.linkedin.com/jobs/view/4493901847/",
    "salario": {
-    "valor": "R$ 5.000 – R$ 7.000/mês (PJ)",
+    "valor": "R$ 4.000 – R$ 5.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado (JobRise 2026: pleno ~R$ 7 mil CLT / ~R$ 10 mil PJ; vaga é operacional e temporária)",
-    "fonte_url": "https://jobrise.io/pt/blog/quanto-ganha-um-data-analyst-2026/"
+    "fonte_nome": "Indeed: vaga da própria Grupo Seven de Analista de Dados Jr em Brasília, R$ 4.000 – R$ 5.000/mês",
+    "fonte_url": "https://br.indeed.com/cmp/Grupo-Seven"
    },
    "descricao": "Vaga temporária (PJ), com possibilidade de efetivação. Atuação presencial em Brasília. Benefícios: nenhum informado.\n\nResponsabilidades\n- Apoiar a gestão e o controle de ponto das operações\n- Consolidar, cruzar e conferir bases de dados operacionais, identificando inconsistências\n- Desenvolver e automatizar planilhas, relatórios e controles com Excel, Power Query e ferramentas de IA\n- Atualizar dashboards, indicadores e faróis de anomalias para as lideranças\n- Padronizar rotinas de extração, tratamento e atualização das informações\n\nRequisitos\n- Superior completo ou em andamento (Ciência de Dados, ADS, SI, Ciência da Computação, Estatística, Administração, Engenharia ou afins)\n- Experiência em análise, tratamento, consolidação e validação de dados\n- Excel avançado e Power Query na prática\n- Uso prático de ferramentas de IA para automação",
    "curriculo": "curriculos/linkedin-4493901847.pdf",
@@ -408,10 +408,10 @@ window.VAGAS_DADOS = {
    ],
    "link": "https://www.linkedin.com/jobs/view/4493938219/",
    "salario": {
-    "valor": "R$ 6.000 – R$ 8.500/mês",
+    "valor": "R$ 2.000 – R$ 3.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado para Analista de Dados (Jooble / JobRise 2026); sem dado público da Deloitte para o cargo",
-    "fonte_url": "https://br.jooble.org/salary/data-analyst"
+    "fonte_nome": "Glassdoor: Deloitte, cargo Analista de Dados (15 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Deloitte-Analista-De-Dados-Sal%C3%A1rios-E2763_D_KO9,26.htm"
    },
    "descricao": "Analista de dados em Finanças/Contabilidade no time de M&A (Delivery Center em Transactions).\n\nResponsabilidades\n- Executar análises financeiras para projetos de Transactions, sob supervisão\n- Preparar análises de fluxo de caixa, EBITDA, capital de giro, dívida líquida, variações contábeis, composição de saldos e reconciliações\n- Tratar, organizar, validar e documentar bases de dados financeiras, garantindo consistência, rastreabilidade e integridade\n- Usar Excel avançado, Power Query, Power BI, SQL, Python ou similares para aumentar eficiência e reduzir esforço manual\n- Contribuir para a melhoria contínua dos processos (eficiência, automação, redução de custos)\n\nRequisitos\n- Superior cursando ou completo em Contábeis, Administração, Economia, Engenharia, SI, ADS ou correlatos\n- Experiência ou conhecimento em análises financeiras, contábeis, auditoria, Deal Advisory, Transaction Services ou análise de dados\n- Python, Excel avançado e inglês intermediário\n- Disponibilidade para viagens",
    "curriculo": "curriculos/deloitte-4493938219.pdf",
@@ -435,10 +435,10 @@ window.VAGAS_DADOS = {
    ],
    "link": "https://www.linkedin.com/jobs/view/4492638742/",
    "salario": {
-    "valor": "R$ 7.000 – R$ 9.500/mês",
+    "valor": "R$ 8.000 – R$ 18.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado para Data Analyst no Brasil (Jooble 2026: média ~R$ 8,2 mil); Capgemini não divulga faixa",
-    "fonte_url": "https://br.jooble.org/salary/data-analyst"
+    "fonte_nome": "Glassdoor: Capgemini, cargo Data Analyst (13 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Capgemini-Data-Analyst-Sal%C3%A1rios-E3803_D_KO10,22.htm"
    },
    "descricao": "Vaga da FBS (Farmers Business Services, EUA). A Capgemini atua como empregadora no Brasil (folha e benefícios). Descrição em inglês — exige comunicação em inglês.\n\nResumo da função\n- Fornecer dados para pedidos pontuais ou recorrentes de relatórios e análises\n- Entender objetivos e processos do cliente e comunicar capacidades e limitações dos sistemas\n- Analisar a qualidade dos dados e tomar ações corretivas\n- Avaliar o impacto de mudanças de sistema na infraestrutura de dados e relatórios (apoio a testes e implantação)\n- Analisar métricas de campanhas e de negócio (engajamento, conversão)\n\nBenefícios citados: salário competitivo e bônus, plano de saúde, trabalho flexível (remoto), treinamentos.\nNão informa anos de experiência.",
    "curriculo": "curriculos/linkedin-4492638742.pdf",
@@ -493,10 +493,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 13.000 – R$ 18.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: Fullstack Labs, cargo Data Engineer (3 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Fullstack-Labs-Data-Engineer-Sal%C3%A1rios-E1296491_D_KO15,28.htm"
    },
    "curriculo": "curriculos/linkedin-4459393718.pdf"
   },
@@ -545,10 +545,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 3.000 – R$ 6.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Looqbox, cargo Analista de Dados (13 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Looqbox-Analista-De-Dados-Sal%C3%A1rios-E2727872_D_KO8,25.htm"
    },
    "curriculo": "curriculos/linkedin-4492824149.pdf"
   },
@@ -571,10 +571,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 15.000 – R$ 17.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Cargill, cargo Data Engineer (20 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Cargill-Data-Engineer-Sal%C3%A1rios-E2739_D_KO8,21.htm"
    },
    "curriculo": "curriculos/linkedin-4491960167.pdf"
   },
@@ -623,10 +623,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489664720.pdf"
   },
@@ -649,10 +649,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 22.250 – R$ 25.900/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Levels.fyi: BairesDev, cargo Business Analyst, Brasil, R$ 267 mil – R$ 311 mil/ano de remuneração total ÷ 12 (poucos relatos)",
+    "fonte_url": "https://www.levels.fyi/companies/bairesdev/salaries/business-analyst"
    },
    "curriculo": "curriculos/linkedin-4489667250.pdf"
   },
@@ -675,10 +675,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo BI Developer (2 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-BI-Developer-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4489655768.pdf"
   },
@@ -701,10 +701,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 8.000 – R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4489673460.pdf"
   },
@@ -727,10 +727,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489677380.pdf"
   },
@@ -753,10 +753,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489664701.pdf"
   },
@@ -779,10 +779,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4492959886.pdf"
   },
@@ -805,10 +805,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489678005.pdf"
   },
@@ -831,10 +831,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489675109.pdf"
   },
@@ -857,10 +857,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489663396.pdf"
   },
@@ -883,10 +883,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489669184.pdf"
   },
@@ -909,10 +909,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4492965780.pdf"
   },
@@ -935,10 +935,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489659500.pdf"
   },
@@ -961,10 +961,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489663704.pdf"
   },
@@ -987,10 +987,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489661530.pdf"
   },
@@ -1013,10 +1013,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 17.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: VTEX, cargo Analytics Engineer (4 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/VTEX-Analytics-Engineer-Sal%C3%A1rios-E713645_D_KO5,23.htm"
    },
    "curriculo": "curriculos/linkedin-4474968083.pdf"
   },
@@ -1091,10 +1091,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.256 – R$ 11.667/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: Capgemini, cargo Engenheiro de Dados (64 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Capgemini-Engenheiro-De-Dados-Sal%C3%A1rios-E3803_D_KO10,29.htm"
    },
    "curriculo": "curriculos/linkedin-4491636019.pdf"
   },
@@ -1119,10 +1119,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 11.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Yandeh, cargo Analytics Engineer (1 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Yandeh-Analytics-Engineer-Sal%C3%A1rios-E1845676_D_KO7,25.htm"
    },
    "curriculo": "curriculos/indeed-e701fb10777eb76a.pdf"
   },
@@ -1431,10 +1431,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: AgileEngine, cargo Data Engineer (1 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/AgileEngine-Data-Engineer-Sal%C3%A1rios-E457910_D_KO12,25.htm"
    },
    "curriculo": "curriculos/linkedin-4491846208.pdf"
   },
@@ -1483,10 +1483,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 11.000 – R$ 12.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Foursys, cargo Desenvolvedor BI (4 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Foursys-Brasil-Desenvolvedor-BI-Sal%C3%A1rios-E2609019_D_KO15,31.htm"
    },
    "curriculo": "curriculos/linkedin-4491154567.pdf"
   },
@@ -1509,10 +1509,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo BI Developer (2 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-BI-Developer-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4489656682.pdf"
   },
@@ -1535,10 +1535,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489672528.pdf"
   },
@@ -1561,10 +1561,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491726060.pdf"
   },
@@ -1587,10 +1587,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 5.000 – R$ 7.000/mês",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica); todos os níveis",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491704615.pdf"
   },
@@ -1613,10 +1613,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491403479.pdf"
   },
@@ -1639,10 +1639,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4487008876.pdf"
   },
@@ -1665,10 +1665,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491716236.pdf"
   },
@@ -1691,10 +1691,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491160926.pdf"
   },
@@ -1717,10 +1717,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491597984.pdf"
   },
@@ -1743,10 +1743,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491700848.pdf"
   },
@@ -1769,10 +1769,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491715345.pdf"
   },
@@ -1795,10 +1795,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491706625.pdf"
   },
@@ -1821,10 +1821,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4491709530.pdf"
   },
@@ -1847,10 +1847,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489657535.pdf"
   },
@@ -1873,10 +1873,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489657534.pdf"
   },
@@ -1899,10 +1899,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4487011918.pdf"
   },
@@ -2005,10 +2005,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 7.000 – R$ 12.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Stefanini, cargo Engenheiro de Dados (200 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Stefanini-Engenheiro-De-Dados-Sal%C3%A1rios-E716148_D_KO10,29.htm"
    },
    "curriculo": "curriculos/gupy-12899976.pdf"
   },
@@ -2031,10 +2031,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 6.000 – R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Semantix, cargo Data Engineer (253 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Semantix-Data-Engineer-Sal%C3%A1rios-E2165061_D_KO9,22.htm"
    },
    "curriculo": "curriculos/linkedin-4491453501.pdf"
   },
@@ -2109,10 +2109,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 2.000 – R$ 5.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: EY, cargo equivalente Analista de Dados (17 salários; não há dado de Analista de BI)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/EY-Analista-De-Dados-Sal%C3%A1rios-E2784_D_KO3,20.htm"
    },
    "curriculo": "curriculos/linkedin-4481638287.pdf"
   },
@@ -2135,10 +2135,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 4.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: EY, cargo Consultor de Dados (4 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/EY-Consultor-De-Dados-Sal%C3%A1rios-E2784_D_KO3,21.htm"
    },
    "curriculo": "curriculos/linkedin-4481636302.pdf"
   },
@@ -2161,10 +2161,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 4.000 – R$ 7.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: EY, cargo Data Engineer (114 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/EY-Data-Engineer-Sal%C3%A1rios-E2784_D_KO3,16.htm"
    },
    "curriculo": "curriculos/linkedin-4488602578.pdf"
   },
@@ -2187,10 +2187,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 4.000 – R$ 7.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: EY, cargo Data Engineer (114 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/EY-Data-Engineer-Sal%C3%A1rios-E2784_D_KO3,16.htm"
    },
    "curriculo": "curriculos/linkedin-4480707438.pdf"
   },
@@ -2213,10 +2213,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.256 – R$ 11.667/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: Capgemini, cargo Engenheiro de Dados (64 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Capgemini-Engenheiro-De-Dados-Sal%C3%A1rios-E3803_D_KO10,29.htm"
    },
    "curriculo": "curriculos/linkedin-4478207011.pdf"
   },
@@ -2239,10 +2239,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.256 – R$ 11.667/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: Capgemini, cargo Engenheiro de Dados (64 salários informados; faixa típica) (equivalente; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Capgemini-Engenheiro-De-Dados-Sal%C3%A1rios-E3803_D_KO10,29.htm"
    },
    "curriculo": "curriculos/linkedin-4488994148.pdf"
   },
@@ -2265,10 +2265,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.256 – R$ 11.667/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: Capgemini, cargo Engenheiro de Dados (64 salários informados; faixa típica) (equivalente; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Capgemini-Engenheiro-De-Dados-Sal%C3%A1rios-E3803_D_KO10,29.htm"
    },
    "curriculo": "curriculos/linkedin-4488992289.pdf"
   },
@@ -2291,10 +2291,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 8.000 – R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4490662503.pdf"
   },
@@ -2317,10 +2317,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 8.000 – R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4490686017.pdf"
   },
@@ -2343,10 +2343,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4490664269.pdf"
   },
@@ -2369,10 +2369,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 5.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo BI Developer (2 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-BI-Developer-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4489671541.pdf"
   },
@@ -2395,10 +2395,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 22.250 – R$ 25.900/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Levels.fyi: BairesDev, cargo Business Analyst, Brasil, R$ 267 mil – R$ 311 mil/ano de remuneração total ÷ 12 (poucos relatos)",
+    "fonte_url": "https://www.levels.fyi/companies/bairesdev/salaries/business-analyst"
    },
    "curriculo": "curriculos/linkedin-4489672165.pdf"
   },
@@ -2421,10 +2421,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo equivalente Data Engineer (34 salários; não há dado de Analytics Engineer)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4490647960.pdf"
   },
@@ -2447,10 +2447,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4490937817.pdf"
   },
@@ -2473,10 +2473,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4490690144.pdf"
   },
@@ -2499,10 +2499,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4490943623.pdf"
   },
@@ -2525,10 +2525,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489662777.pdf"
   },
@@ -2551,10 +2551,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489659497.pdf"
   },
@@ -2577,10 +2577,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489666633.pdf"
   },
@@ -2603,10 +2603,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489670496.pdf"
   },
@@ -2629,10 +2629,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489668194.pdf"
   },
@@ -2655,10 +2655,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489660833.pdf"
   },
@@ -2681,10 +2681,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489679081.pdf"
   },
@@ -2707,10 +2707,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489663743.pdf"
   },
@@ -2733,10 +2733,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 15.000 – R$ 21.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: BairesDev, cargo Data Engineer (34 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Engineer-Sal%C3%A1rios-E864485_D_KO10,23.htm"
    },
    "curriculo": "curriculos/linkedin-4489672167.pdf"
   },
@@ -2759,10 +2759,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "R$ 10.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "Glassdoor: AgileEngine, cargo Data Engineer (1 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/AgileEngine-Data-Engineer-Sal%C3%A1rios-E457910_D_KO12,25.htm"
    },
    "curriculo": "curriculos/linkedin-4488667862.pdf"
   },
@@ -2837,10 +2837,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "valor": "R$ 9.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Global Hitss, cargo Engenheiro de Dados (26 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/GLOBAL-HITSS-Engenheiro-De-Dados-Sal%C3%A1rios-E749686_D_KO13,32.htm"
    },
    "curriculo": "curriculos/gupy-12879619.pdf"
   },
@@ -2863,10 +2863,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 3.000 – R$ 8.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Global Hitss, cargo Analista de Dados (12 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/GLOBAL-HITSS-Analista-De-Dados-Sal%C3%A1rios-E749686_D_KO13,30.htm"
    },
    "curriculo": "curriculos/gupy-12879707.pdf"
   },
@@ -2889,10 +2889,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "valor": "R$ 6.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Softtek, cargo Analista de Dados (8 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Softtek-Analista-De-Dados-Sal%C3%A1rios-E108072_D_KO8,25.htm"
    },
    "curriculo": "curriculos/linkedin-4487170732.pdf"
   },
@@ -2941,10 +2941,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": true,
    "salario": {
-    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "valor": "US$ 50 – US$ 120/hora (10 a 40 h/semana)",
     "origem": "pesquisado",
-    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
-    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+    "fonte_nome": "riseme.ai: vaga da própria Crossing Hurdles, Data Engineer | Remote, US$ 50 – US$ 120/hora",
+    "fonte_url": "https://riseme.ai/jobs/crossing-hurdles/de766354-784f-4f67-937d-c3b2dc0e02a7/data-engineer-remote"
    },
    "curriculo": "curriculos/linkedin-4487947895.pdf"
   },
@@ -2967,10 +2967,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "salario": {
-    "valor": "R$ 5.000 – R$ 7.000/mês",
+    "valor": "R$ 4.000/mês",
     "origem": "pesquisado",
-    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
-    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+    "fonte_nome": "Glassdoor: Bemol, cargo Engenheiro de Dados (2 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BEMOL-Engenheiro-De-Dados-Sal%C3%A1rios-E1502192_D_KO6,25.htm"
    },
    "curriculo": "curriculos/gupy-12837197.pdf"
   }
