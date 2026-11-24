@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T11:55:00-03:00",
+ "atualizado_em": "2026-11-24T12:19:36-03:00",
  "vagas": [
   {
    "id": "linkedin-4494330888",
@@ -209,6 +209,32 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
    "curriculo": "curriculos/linkedin-4493570862.pdf"
+  },
+  {
+   "id": "linkedin-4493663490",
+   "dia": "2026-11-23",
+   "titulo": "Engenheiro de Gestão de Projetos e Desempenho BI",
+   "empresa": "Jobbol",
+   "contrato": "Não informado",
+   "local": "Brasília, DF",
+   "modalidade": "Presencial",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4493663490/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4493663490/"
+   },
+   "descricao": "Empresa de Engenharia busca profissional Engenheiro de Gestão de Projetos e Desempenho BI em Brasília.\nA Emthos é uma empresa especializada em soluções tecnológicas inovadoras. Seu foco é oferecer serviços que melhoram a eficiência e a experiência do usuário em diversas plataformas.\n Responsabilidades\n Entregas dos processos de Gestão e Desempenho da SUB/ES. Relatórios consolidados da Engenharia Submarina e de acompanhamento da gerência. Relatórios de Gestão no Tratamento e Controle de Anomalias. Desenvolvimento e manutenção de painéis de gestão.\nAtuações anteriores em Engenheiro de Gestão de Projetos e Análise de Dados, Engenheiro de Gestão de Projetos e Inteligência de Negócios, Engenheiro de Gestão de Projetos e Performance ou Engenheiro de Gestão de Projetos e Métricas de Desempenho podem indicar afinidade com algumas das atividades desta posição.\n Requisitos Desejáveis\n Escolaridade: Ensino superior completo\n Experiência: Necessário experiência\n Remuneração e Benefícios\n Salário: Faixa salarial será informada na entrevista.\n Gympass |Plano de saúde |Plano odontológico |Vale Alimentação\n Informações Adicionais\n Contrato: Home Office. Presencial. Candidatos de Águas Claras, Taguatinga, Samambaia ou Sobradinho também são considerados para esta vaga.\n Período: Tempo Integral\n Jornada: A combinar",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/linkedin-4493663490.pdf"
   },
   {
    "id": "gupy-12916489",
