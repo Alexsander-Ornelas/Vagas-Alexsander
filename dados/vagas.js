@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T12:19:36-03:00",
+ "atualizado_em": "2026-11-24T13:21:49-03:00",
  "vagas": [
   {
    "id": "linkedin-4494330888",
@@ -79,6 +79,32 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
    "curriculo": "curriculos/linkedin-4478511422.pdf"
+  },
+  {
+   "id": "linkedin-4494085506",
+   "dia": "2026-11-23",
+   "titulo": "Analista de Inteligência e Performance II",
+   "empresa": "Wiz Co (Omni1)",
+   "contrato": "Não informado",
+   "local": "Brasília, DF",
+   "modalidade": "Híbrido",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494085506/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494085506/"
+   },
+   "descricao": "Analista de Inteligência e Performance II na Omni1 (joint venture do grupo Wiz Co), modelo WE Flex: 3 dias presenciais no escritório e 2 em casa.\nResponsabilidades:\n- Construir e manter painéis de indicadores de desempenho para análise e gestão da performance e resultados;\n- Construir instrumentos de acompanhamento e gestão de performance de campanhas;\n- Garantir a aplicação de métricas e regras de negócio nos indicadores de gestão da unidade de negócios;\n- Realizar análises e estudos pontuais que identifiquem oportunidades de melhoria;\n- Calcular e propor racional para distribuição de metas e apuração de campanhas;\n- Auxiliar na construção de materiais de reports de dados.\nRequisitos: ensino superior em áreas correlatas; domínio de Excel, Power BI e SQL; experiência com construção de dashboards, indicadores e análises de performance; capacidade analítica; organização e autonomia.\nDiferenciais: vivência em financeiro, seguros ou consórcios; IA generativa (Copilot, Claude); Power Automate; Python para análise e tratamento de dados.\n(Vaga recebida por alerta do LinkedIn no e-mail.)",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/linkedin-4494085506.pdf"
   },
   {
    "id": "linkedin-4491708333",
