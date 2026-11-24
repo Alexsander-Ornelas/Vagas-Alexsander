@@ -1,7 +1,59 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T13:21:49-03:00",
+ "atualizado_em": "2026-11-24T16:15:11-03:00",
  "vagas": [
+  {
+   "id": "linkedin-4494150447",
+   "dia": "2026-11-24",
+   "titulo": "Engenheiro de dados",
+   "empresa": "Tata Consultancy Services",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494150447/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494150447/"
+   },
+   "descricao": "We are looking for Data Engineer who wants to learn and transform his career.\nKey Responsibilities\nDevelop and orchestrate automated ingestion and transformation pipelines (batch and streaming) across source systems including SAP, LIMS and MES.\nImplement modular, testable transformation logic in SQL and Python, following the medallion/layered pattern into the Roche PT Common Data Layer.\nOperationalise pipelines through CI/CD, version control and automated deployment to ensure environment stability and reproducibility.\nEmbed data-quality, lineage and monitoring controls (freshness, completeness, accuracy) to sustain a single source of truth.\nEnsure all pipelines are compliant-by-design, honouring ALCOA+ principles and audit-trail requirements under 21 CFR Part 11 / EMA Annex 11.\nMandatory Skills\nAdvanced SQL and Python for data engineering\nELT/ETL pipeline design & data modelling (dimensional / medallion)\nWorkflow orchestration & scheduling\nCI/CD, Git branching & automated testing\nData quality, lineage & observability\nPerformance tuning & cost optimisation\nExperience with Pharma projects\nTCS Benefits – Brazil: health insurance, dental plan, life insurance, meal/food voucher, Totalpass, certifications reimbursement.",
+   "tipo": "engenheiro",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4494150447.pdf"
+  },
+  {
+   "id": "linkedin-4494726103",
+   "dia": "2026-11-24",
+   "titulo": "Engenheiro(a) de Dados - Remoto",
+   "empresa": "Mesha Tecnologia",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494726103/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494726103/"
+   },
+   "descricao": "Com mais de 15 anos de trajetória, a MESHA Tecnologia se posiciona como parceira estratégica na transformação digital de empresas em todo o Brasil.\nResponsabilidades e atribuições\nMigrar painéis de Power BI para a arquitetura de dados na AWS, substituindo fontes em planilhas, fluxos de dados e bancos legados por tabelas na camada gold.\nLevantar, para cada painel, as fontes, as medidas e as regras de negócio em uso, e mapear a linhagem do indicador até a origem.\nLevar para a camada gold os cálculos que hoje estão em medidas DAX, de modo que o painel apenas consuma o dado pronto.\nValidar os dados migrados contra o painel original, com testes de paridade automatizados.\nDesenvolver pipelines de ingestão a partir de bancos de dados corporativos, APIs e arquivos, incluindo o ERP TOTVS RM.\nConstruir transformações nas camadas bronze, silver e gold da arquitetura medalhão.\nModelar fatos e dimensões para consumo analítico e para indicadores oficiais.\nOrquestrar fluxos de carga com agendamento, tratamento de falhas e reprocessamento.\nManter a infraestrutura como código e os pipelines de entrega contínua.\nDocumentar fluxos, tabelas e regras de negócio.\nMonitorar custos, desempenho e qualidade das cargas.\nRequisitos e qualificações\nSQL avançado, incluindo leitura e reescrita de procedures e consultas complexas em SQL Server.\nPython e PySpark para processamento de dados.\nAWS Glue, Amazon S3 (Parquet), AWS DMS, Step Functions, Lambda, EventBridge, Athena e Redshift.\nInfraestrutura como código com AWS CloudFormation.\nGit e pipelines de CI/CD, preferencialmente no Azure DevOps.\nModelagem dimensional e conceitos de data lake e lakehouse.\nApache Iceberg.\nEnsino Superior Completo na área de Tecnologia.\nDiferenciais: Power BI (modelos semânticos, DAX, fluxos de dados e gateway); conhecimento do modelo de dados do TOTVS RM; certificações AWS.",
+   "tipo": "engenheiro",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/linkedin-4494726103.pdf"
+  },
   {
    "id": "linkedin-4494330888",
    "dia": "2026-11-24",
@@ -79,6 +131,32 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
    "curriculo": "curriculos/linkedin-4478511422.pdf"
+  },
+  {
+   "id": "linkedin-4494382462",
+   "dia": "2026-11-24",
+   "titulo": "Data Analyst (Spark & SQL) - Remote Work",
+   "empresa": "BairesDev",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494382462/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494382462/"
+   },
+   "descricao": "Data Analyst (Spark & SQL) at BairesDev\nAs a Data Analyst (Spark & SQL), you will transform raw data into actionable intelligence to drive business decisions. You will connect the dots between complex distributed data sets and clear strategic insights, ensuring high data transparency and accuracy across the organization.\nWhat You'll Do:\n- Mine and analyze complex datasets to uncover hidden patterns and trends.\n- Develop and optimize scalable data processing and analytics workflows.\n- Create clear and compelling reporting to make data insights accessible to stakeholders.\n- Maintain a high standard of data quality, testing, and documentation.\nWhat we are looking for:\n- 5+ years of experience in Data Analysis or related data fields.\n- Strong proficiency in writing and optimizing complex SQL queries.\n- Proven expertise in data processing and analytics using Apache Spark.\n- Advanced proficiency in English.\nHow we do make your work (and your life) easier:\n- 100% remote work (from anywhere).\n- Excellent compensation in USD or your local currency if preferred\n- Flexible hours: create your own schedule.",
+   "tipo": "analista",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4494382462.pdf"
   },
   {
    "id": "linkedin-4494085506",
