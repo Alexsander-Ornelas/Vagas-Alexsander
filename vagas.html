@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexsander Ornelas | Vagas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="index.html">AO<b>.</b></a>
+  <nav class="tabs"><a href="index.html">Início</a><a href="vagas.html" class="ativo">Vagas</a><a href="status.html">Status</a></nav>
+  <span class="meta" id="atualizado"></span></div></header>
+<section class="hero">
+  <div class="network" aria-hidden="true"></div><div class="network b" aria-hidden="true"></div>
+  <p class="eyebrow">Analista de Dados · Engenheiro de Dados · Business Intelligence</p>
+  <h1>Vagas para o Alexsander</h1>
+  <p class="sub">Vagas de dados encontradas pela automação, cada uma com o currículo ajustado para ela.</p>
+  <div class="stats">
+    <button type="button" class="stat" data-filtro='{}' title="Ver todas"><b id="sTotal" data-conta>0</b><span>vagas</span></button>
+    <button type="button" class="stat" data-filtro='{"origem":"nac"}' title="Filtrar nacionais"><b id="sNac" data-conta>0</b><span>nacionais</span></button>
+    <button type="button" class="stat" data-filtro='{"origem":"intl"}' title="Filtrar internacionais"><b id="sIntl" data-conta>0</b><span>internacionais</span></button>
+    <button type="button" class="stat" data-filtro='{"local":"bsb"}' title="Filtrar Brasília"><b id="sBsb" data-conta>0</b><span>em Brasília</span></button>
+  </div>
+</section>
+<div class="wrap">
+  <div class="toolbar">
+    <input type="search" id="busca" placeholder="Buscar cargo, empresa ou palavra">
+    <select id="dia" aria-label="Dia"></select>
+    <select id="origem" aria-label="Origem">
+      <option value="">Origem: todas</option>
+      <option value="nac">Só nacionais</option>
+      <option value="intl">Só internacionais</option>
+    </select>
+    <select id="local" aria-label="Local">
+      <option value="">Local: todos</option>
+      <option value="bsb">Brasília, DF</option>
+      <option value="br">Brasil (home office)</option>
+    </select>
+    <select id="contrato" aria-label="Contrato">
+      <option value="">Contrato: todos</option>
+      <option value="CLT">CLT</option>
+      <option value="PJ">PJ</option>
+      <option value="Não informado">Não informado</option>
+    </select>
+    <select id="plataforma" aria-label="Plataforma"><option value="">Plataforma: todas</option></select>
+    <button type="button" class="limpar" id="limpar">Limpar filtros ×</button>
+  </div>
+  <div class="count" id="count"></div>
+  <div id="lista"></div>
+</div>
+<footer class="rodape">
+  <a href="index.html" class="logo">AO<b>.</b></a>
+  <p>© 2026 Alexsander Ornelas</p>
+  <a href="https://www.linkedin.com/in/alexsander-ornelas" target="_blank" rel="noreferrer">LINKEDIN</a>
+</footer>
+
+<div class="modal" id="escolha" hidden>
+  <div class="caixa" role="dialog" aria-modal="true" aria-labelledby="escolha-titulo">
+    <button type="button" class="fechar" aria-label="Fechar">×</button>
+    <span class="rotulo">Vaga em mais de uma plataforma</span>
+    <h3 id="escolha-titulo">Abrir em qual plataforma?</h3>
+    <p id="escolha-vaga"></p>
+    <div id="escolha-links"></div>
+  </div>
+</div>
+
+<!-- Os dados vêm de dados/vagas.js, que a automação reescreve a cada rodada -->
+<script src="dados/vagas.js"></script>
+<script src="assets/site.js"></script>
+<script>
+  const DADOS = window.VAGAS_DADOS || { atualizado_em: null, vagas: [] };
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmtDia = d => new Date(d + "T12:00:00").toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "2-digit", year: "numeric" });
+
+  $("sTotal").textContent = DADOS.vagas.length;
+  $("sNac").textContent = DADOS.vagas.filter(v => !v.internacional).length;
+  $("sIntl").textContent = DADOS.vagas.filter(v => v.internacional).length;
+  $("sBsb").textContent = DADOS.vagas.filter(v => /Bras[ií]lia/.test(v.local || "")).length;
+  $("atualizado").textContent = DADOS.atualizado_em
+    ? "Atualizado em " + new Date(DADOS.atualizado_em).toLocaleString("pt-BR", {dateStyle:"short", timeStyle:"short"})
+    : "Nenhuma rodada registrada ainda.";
+
+  const dias = [...new Set(DADOS.vagas.map(v => v.dia))].sort().reverse();
+  $("dia").innerHTML = `<option value="*">Dia: todos</option>` +
+    dias.map(d => `<option value="${d}">${fmtDia(d)} (${DADOS.vagas.filter(v => v.dia === d).length})</option>`).join("");
+
+  function salarioHtml(s) {
+    if (!s || !s.valor) return `<div class="salario"><b>Pretensão: não encontrada</b></div>`;
+    const origem = s.origem === "divulgado" ? "Divulgado na vaga" : "Pesquisado (vaga não informa)";
+    const fonte = s.fonte_url ? ` · <a href="${esc(s.fonte_url)}" target="_blank" rel="noopener">${esc(s.fonte_nome || "fonte")}</a>` : (s.fonte_nome ? " · " + esc(s.fonte_nome) : "");
+    return `<div class="salario"><b>Pretensão: ${esc(s.valor)}</b><span class="fonte">${origem}${fonte}</span></div>`;
+  }
+
+  // Cores das etiquetas, derivadas da paleta do portfólio (verde-limão e verde-água como base)
+  const COR = {
+    "Nacional": "#d7f510", "Internacional": "#70f0c6",
+    "CLT": "#7cc4ff", "PJ": "#ffc46b", "Não informado": "#929893",
+    "Brasil": "#b9a6ff", "Brasília, DF": "#ff8a7a",
+    "Remoto": "#5fd3e6", "Híbrido": "#ffa96b", "Presencial": "#ff9fd0", "Não informada": "#929893",
+    "LinkedIn": "#4d9dff", "Gupy": "#c99bff", "Indeed": "#8fa8ff", "Sólides": "#ffd166",
+    "Catho": "#ff6f91", "InfoJobs": "#8be36b", "Vagas.com.br": "#f7f7f2"
+  };
+  const tag = t => t ? `<span class="tag cor" style="--c:${COR[t] || "#f7f7f2"}">${esc(t)}</span>` : "";
+  const plats = [...new Set(DADOS.vagas.flatMap(v => v.plataformas || []))].sort();
+  $("plataforma").innerHTML += plats.map(p => `<option value="${esc(p)}">${esc(p)} (${DADOS.vagas.filter(v => (v.plataformas || []).includes(p)).length})</option>`).join("");
+
+  function render() {
+    const dia = $("dia").value, og = $("origem").value, q = $("busca").value.trim().toLowerCase(), ct = $("contrato").value, pf = $("plataforma").value, lc = $("local").value;
+    const bsb = v => /Bras[ií]lia/.test(v.local || "");
+    const lista = DADOS.vagas.filter(v =>
+      (dia === "*" || v.dia === dia) &&
+      (!og || (og === "intl") === !!v.internacional) &&
+      (!ct || (v.contrato || "Não informado") === ct) &&
+      (!pf || (v.plataformas || []).includes(pf)) &&
+      (!lc || (lc === "bsb") === bsb(v)) &&
+      (!q || [v.titulo, v.empresa, v.descricao].join(" ").toLowerCase().includes(q))
+    );
+    $("count").innerHTML = `<b>${lista.length}</b> vaga${lista.length === 1 ? "" : "s"} encontrada${lista.length === 1 ? "" : "s"}`;
+    $("lista").innerHTML = lista.length ? lista.map(v => `
+      <article class="vaga">
+        <div class="top">
+          <div>
+            <h2>${esc(v.titulo)}</h2>
+            <div class="empresa">${esc(v.empresa)} · publicada em ${new Date(v.dia + "T12:00:00").toLocaleDateString("pt-BR")}</div>
+          </div>
+          <div class="acoes">
+            <a class="btn primary" href="${esc(v.curriculo)}" download="Currículo Alexsander Ornelas.pdf">${v.internacional ? "Baixar currículo (EN)" : "Baixar currículo"}</a>
+            ${Object.keys(v.links || {}).length > 1
+              ? `<button type="button" class="btn" data-escolher="${esc(v.id)}">Abrir vaga</button>`
+              : `<a class="btn" href="${esc(v.link)}" target="_blank" rel="noopener">Abrir vaga</a>`}
+          </div>
+        </div>
+        <div class="tags">
+          ${tag(v.internacional ? "Internacional" : "Nacional")}
+          ${tag(v.contrato || "Não informado")}
+          ${tag(v.local)}
+          ${tag(v.modalidade)}
+          ${(v.plataformas || []).map(tag).join("")}
+        </div>
+        ${salarioHtml(v.salario)}
+        <details>
+          <summary>Descrição da vaga</summary>
+          <div class="descricao">${esc(v.descricao)}</div>
+        </details>
+      </article>`).join("") : `<div class="vazio">Nenhuma vaga para esse filtro.</div>`;
+  }
+
+  // Escolha de plataforma quando a mesma vaga está em mais de um site
+  const modal = $("escolha");
+  function abrirEscolha(v) {
+    $("escolha-vaga").textContent = `${v.titulo} · ${v.empresa}`;
+    $("escolha-links").innerHTML = Object.entries(v.links).map(([p, url]) =>
+      `<a class="plat" style="--c:${COR[p] || "#f7f7f2"}" href="${esc(url)}" target="_blank" rel="noopener"><span>${esc(p)}</span></a>`).join("");
+    modal.hidden = false;
+    modal.querySelector(".plat").focus();
+  }
+  const fechar = () => { modal.hidden = true; };
+  $("lista").addEventListener("click", e => {
+    const b = e.target.closest("[data-escolher]");
+    if (b) abrirEscolha(DADOS.vagas.find(v => v.id === b.dataset.escolher));
+  });
+  modal.addEventListener("click", e => { if (e.target === modal || e.target.closest(".fechar") || e.target.closest(".plat")) fechar(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") fechar(); });
+
+  // Filtros: vêm da URL (atalhos da home) e ficam salvos nela
+  const FILTROS = ["busca", "dia", "origem", "local", "contrato", "plataforma"];
+  FILTROS.forEach(id => $(id).addEventListener("input", render));
+  filtrosDaURL(FILTROS);
+  document.querySelectorAll("[data-filtro]").forEach(b => b.addEventListener("click", () => definirFiltros(JSON.parse(b.dataset.filtro), FILTROS)));
+  $("limpar").addEventListener("click", () => definirFiltros({}, FILTROS));
+  render();
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexsander Ornelas | Status das Candidaturas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
+<style>
+  .st { background:color-mix(in srgb, currentColor 9%, transparent); font-family:"DM Mono", monospace; font-size:10px; letter-spacing:.4px; padding:4px 8px; border:1px solid; }
+  .st.and { color:var(--acid); border-color:var(--acid); }
+  .st.agu { color:var(--mint); border-color:var(--mint); }
+  .st.ban { color:#b9a6ff; border-color:#b9a6ff66; }
+  .st.nao { color:#ff8a7a; border-color:#ff8a7a66; }
+  .st.enc { color:var(--dim); border-color:var(--line); }
+  .etapa { margin-top:14px; font-size:14px; color:#c9ccc6; }
+  .etapa small { display:block; font-family:"DM Mono", monospace; font-size:10px; letter-spacing:.3px; color:var(--dim); margin-top:3px; }
+  .barra { height:4px; background:var(--line); margin-top:8px; max-width:320px; } .barra i { display:block; height:100%; background:var(--acid); }
+  .aviso { background:var(--surface); border:1px dashed var(--line); padding:14px 16px; margin-bottom:16px; font-size:13px; color:var(--dim); }
+  .aviso b { color:var(--text); }
+  .vaga.nao, .vaga.enc { opacity:.72; }
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="index.html">AO<b>.</b></a>
+  <nav class="tabs"><a href="index.html">Início</a><a href="vagas.html">Vagas</a><a href="status.html" class="ativo">Status</a></nav>
+  <span class="meta" id="atualizado"></span></div></header>
+<section class="hero">
+  <div class="network" aria-hidden="true"></div><div class="network b" aria-hidden="true"></div>
+  <p class="eyebrow">Acompanhamento</p>
+  <h1>Status das candidaturas</h1>
+  <p class="sub">Todas as vagas em que você se candidatou, com a situação de cada processo.</p>
+  <div class="stats">
+    <button type="button" class="stat" data-filtro='{}'><b id="sTotal" data-conta>0</b><span>candidaturas</span></button>
+    <button type="button" class="stat" data-filtro='{"status":"Em andamento"}'><b id="sAnd" data-conta>0</b><span>em andamento</span></button>
+    <button type="button" class="stat" data-filtro='{"status":"Aguardando retorno"}'><b id="sAgu" data-conta>0</b><span>aguardando retorno</span></button>
+    <button type="button" class="stat" data-filtro='{"status":"Banco de talentos"}'><b id="sBan" data-conta>0</b><span>banco de talentos</span></button>
+    <button type="button" class="stat" data-filtro='{"status":"Não avançou"}'><b id="sNao" data-conta>0</b><span>não avançou</span></button>
+    <button type="button" class="stat" data-filtro='{"status":"Encerrada sem retorno"}'><b id="sEnc" data-conta>0</b><span>encerradas sem retorno</span></button>
+  </div>
+</section>
+<div class="wrap">
+  <div class="aviso" id="aviso"></div>
+  <div class="toolbar t3">
+    <input type="search" id="busca" placeholder="Buscar por cargo ou empresa">
+    <select id="status"><option value="">Todos os status</option><option>Em andamento</option><option>Aguardando retorno</option><option>Banco de talentos</option><option>Não avançou</option><option>Encerrada sem retorno</option></select>
+    <select id="plat"><option value="">Todas as plataformas</option></select>
+    <button type="button" class="limpar" id="limpar">Limpar ×</button>
+  </div>
+  <div class="count" id="count"></div>
+  <div id="lista"></div>
+</div>
+<footer class="rodape">
+  <a href="index.html" class="logo">AO<b>.</b></a>
+  <p>© 2026 Alexsander Ornelas</p>
+  <a href="https://www.linkedin.com/in/alexsander-ornelas" target="_blank" rel="noreferrer">LINKEDIN</a>
+</footer>
+<script src="dados/status.js"></script>
+<script src="assets/site.js"></script>
+<script>
+  const D = window.STATUS_DADOS || {candidaturas:[], plataformas:[]}, C = D.candidaturas;
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  $("atualizado").textContent = D.atualizado_em ? "Atualizado em " + new Date(D.atualizado_em).toLocaleString("pt-BR", {dateStyle:"short", timeStyle:"short"}) : "";
+  $("sTotal").textContent = C.length;
+  $("sAnd").textContent = C.filter(c => c.status === "Em andamento").length;
+  $("sAgu").textContent = C.filter(c => c.status === "Aguardando retorno").length;
+  $("sBan").textContent = C.filter(c => c.status === "Banco de talentos").length;
+  $("sNao").textContent = C.filter(c => c.status === "Não avançou").length;
+  $("sEnc").textContent = C.filter(c => c.status === "Encerrada sem retorno").length;
+  const off = D.plataformas.filter(p => !p.conectada).map(p => p.nome);
+  $("aviso").innerHTML = off.length ? `Lendo apenas <b>${D.plataformas.filter(p => p.conectada).map(p => p.nome).join(", ")}</b>. Para incluir <b>${off.join(", ")}</b>, entre na sua conta desses sites no navegador e a próxima atualização traz as candidaturas de lá.` : "Todas as plataformas conectadas.";
+  [...new Set(C.map(c => c.plataforma))].forEach(p => $("plat").insertAdjacentHTML("beforeend", `<option>${esc(p)}</option>`));
+  // Mesmas cores das etiquetas da aba Vagas
+  const COR = { "Brasil": "#b9a6ff", "Brasília, DF": "#ff8a7a", "Remoto": "#5fd3e6", "Híbrido": "#ffa96b", "Presencial": "#ff9fd0",
+    "LinkedIn": "#4d9dff", "Gupy": "#c99bff", "Indeed": "#8fa8ff", "Sólides": "#ffd166", "Catho": "#ff6f91", "InfoJobs": "#8be36b", "Vagas.com.br": "#f7f7f2" };
+  const tag = (t, cor) => t ? `<span class="tag cor" style="--c:${cor || COR[t] || "#f7f7f2"}">${esc(t)}</span>` : "";
+  const localTags = l => {
+    if (!l) return "";
+    return l.split(" · ").map(p => {
+      p = p.trim();
+      if (/^(Remoto|H[ií]brido|Presencial)$/i.test(p)) return tag(p.replace(/^hibrido$/i, "Híbrido"));
+      if (/Bras[ií]lia|\bDF\b/.test(p)) return tag(p, COR["Brasília, DF"]);
+      if (/^Brasil$/.test(p)) return tag(p);
+      return tag(p, "#f7f7f2");
+    }).join("");
+  };
+  const cls = s => s === "Em andamento" ? "and" : s === "Aguardando retorno" ? "agu" : s === "Não avançou" ? "nao" : s === "Banco de talentos" ? "ban" : "enc";
+  // Ordem: quem está mais longe no processo primeiro (maior % das etapas, depois maior etapa),
+  // em seguida os demais pela situação, e dentro de cada grupo a candidatura mais recente primeiro.
+  const PESO = { "Em andamento": 0, "Aguardando retorno": 1, "Banco de talentos": 2, "Não avançou": 3, "Encerrada sem retorno": 4 };
+  const prog = c => c.etapas_total ? c.etapa_atual / c.etapas_total : -1;
+  const quando = c => c.data_aprox || (c.candidatura && /\d{2}\/\d{2}\/\d{4}/.test(c.candidatura) ? c.candidatura.match(/(\d{2})\/(\d{2})\/(\d{4})/).slice(1).reverse().join("-") : "") || "";
+  const ordem = (a, b) => (prog(b) - prog(a)) || ((b.etapa_atual || 0) - (a.etapa_atual || 0))
+    || ((PESO[a.status] ?? 9) - (PESO[b.status] ?? 9)) || quando(b).localeCompare(quando(a));
+  function render() {
+    const q = $("busca").value.trim().toLowerCase(), st = $("status").value, pl = $("plat").value;
+    const L = C.filter(c => (!st || c.status === st) && (!pl || c.plataforma === pl) && (!q || (c.titulo + " " + c.empresa).toLowerCase().includes(q)))
+      .sort(ordem);
+    $("count").innerHTML = `<b>${L.length}</b> candidatura${L.length === 1 ? "" : "s"}`;
+    $("lista").innerHTML = L.length ? L.map(c => {
+      const pct = c.etapas_total ? Math.round(100 * c.etapa_atual / c.etapas_total) : null;
+      return `<article class="vaga ${cls(c.status)}">
+        <div class="top"><div><h2>${esc(c.titulo)}</h2><div class="empresa">${esc(c.empresa)} · ${c.candidatura ? "candidatura " + esc(c.candidatura) : "candidatura pela " + esc(c.plataforma)}${c.data_aprox ? " (≈ " + new Date(c.data_aprox + "T12:00:00").toLocaleDateString("pt-BR") + ")" : ""}</div></div>
+        <div class="acoes"><a class="btn" href="${esc(c.link)}" target="_blank" rel="noopener">Abrir vaga</a></div></div>
+        <div class="tags"><span class="st ${cls(c.status)}">${esc(c.status)}</span>${localTags(c.local)}${tag(c.plataforma)}</div>
+        <div class="etapa">${c.etapas_total ? `Etapa ${c.etapa_atual} de ${c.etapas_total}${(e => e ? " · " + esc(e) : "")((c.etapa || "").replace(/^Etapa \d+ de \d+( · )?/, ""))}<div class="barra"><i style="width:${pct}%"></i></div>` : esc(c.etapa)}
+          ${c.observacao ? `<small>${esc(c.observacao)}</small>` : ""}${!c.etapas_total ? `<small>Etapas do processo não informadas por esta plataforma</small>` : ""}</div>
+      </article>`; }).join("") : `<div class="vazio">Nenhuma candidatura para esse filtro.</div>`;
+  }
+  // Filtros: vêm da URL (atalhos da home) e ficam salvos nela
+  const FILTROS = ["busca", "status", "plat"];
+  FILTROS.forEach(id => $(id).addEventListener("input", render));
+  filtrosDaURL(FILTROS);
+  document.querySelectorAll("[data-filtro]").forEach(b => b.addEventListener("click", () => definirFiltros(JSON.parse(b.dataset.filtro), FILTROS)));
+  $("limpar").addEventListener("click", () => definirFiltros({}, FILTROS));
+  render();
+</script>
+</body>
+</html>

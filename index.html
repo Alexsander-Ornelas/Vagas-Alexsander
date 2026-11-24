@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexsander Ornelas | Busca de Vagas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
+<style>
+  .home { max-width:1080px; margin:0 auto; padding:64px 28px 40px; display:grid; grid-template-columns:1.25fr .9fr; gap:48px; align-items:center; }
+  @media (max-width:820px){ .home { grid-template-columns:1fr; padding:36px 20px 32px; gap:32px; text-align:center; } .retrato { order:-1; width:min(300px,72vw); }
+    .acoes-home { justify-content:center; } .home .sub { margin-inline:auto; } }
+  @media (max-width:460px){ .acoes-home { flex-direction:column; } .acoes-home .btn { text-align:center; } .legenda b { font-size:15px; } }
+  .home h1 { font-size:clamp(52px,8vw,104px); line-height:.9; letter-spacing:-0.09em; }
+  .ola { color:var(--acid); font-size:16px; margin:22px 0 6px; }
+  .frase { font-size:clamp(24px,3vw,34px); font-weight:700; letter-spacing:-0.05em; line-height:1.15; margin:0; }
+  .frase em { font-family: Georgia, "Times New Roman", serif; font-style:italic; font-weight:400; color:var(--acid); }
+  .home .sub { font-size:16px; }
+  .acoes-home { display:flex; gap:10px; margin-top:28px; flex-wrap:wrap; }
+  .acoes-home .btn { padding:14px 22px; font-size:12px; }
+  .retrato { position:relative; justify-self:center; width:min(380px,80vw); aspect-ratio:1; border-radius:50%; padding:6px;
+    background:conic-gradient(from 200deg, var(--acid), #d7f51022 40%, var(--acid) 75%, #d7f51022); box-shadow:0 0 60px #d7f51022; }
+  .retrato img { width:100%; height:100%; object-fit:cover; object-position:50% 22%; border-radius:50%; display:block; border:6px solid var(--bg); }
+  .legenda { position:absolute; left:0; right:0; bottom:13%; text-align:center; }
+  .legenda b { display:block; font-size:18px; letter-spacing:-0.03em; text-shadow:0 2px 12px #000; }
+  .legenda span { display:inline-block; margin-top:4px; padding:3px 10px; background:#050707cc; color:var(--acid); font-family:"DM Mono", monospace; font-size:11px; }
+  .painel { max-width:1080px; margin:0 auto; padding:0 28px 80px; display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  @media (max-width:900px){ .painel { grid-template-columns:1fr 1fr; } }
+  @media (max-width:460px){ .painel { grid-template-columns:1fr; padding:0 20px 60px; } .kpi b { font-size:38px; } }
+  .kpi { position:relative; background:var(--surface); border:1px solid var(--line); padding:22px; color:var(--text); transition:border-color .3s, transform .35s, background .3s, opacity .6s; }
+  .kpi.reveal.visivel:hover, .kpi:hover { border-color:#d7f51070; background:#121817; transform:translateY(-8px); }
+  .kpi-link { position:absolute; inset:0; z-index:1; }
+  .kpi .ic { display:flex; justify-content:space-between; color:var(--acid); font-family:"DM Mono", monospace; font-size:11px; letter-spacing:1px; text-transform:uppercase; }
+  .kpi .ic i { font-style:normal; color:var(--dim); transition:color .3s, transform .3s; }
+  .kpi:hover .ic i { color:var(--acid); transform:translate(3px,-3px); }
+  .kpi b { display:block; font-size:44px; font-weight:800; letter-spacing:-2px; margin:10px 0 8px; }
+  .kpi.destaque b { color:var(--acid); }
+  .atalhos { display:flex; flex-direction:column; gap:4px; }
+  .atalhos a { position:relative; z-index:2; align-self:flex-start; color:var(--dim); font-size:13px; text-decoration:none; border-bottom:1px dashed transparent; transition:color .2s, border-color .2s; }
+  .atalhos a:hover { color:var(--text); border-bottom-color:var(--acid); }
+  .atalhos em { font-style:normal; font-weight:700; color:var(--text); }
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="logo" href="index.html">AO<b>.</b></a>
+  <nav class="tabs"><a href="index.html" class="ativo">Início</a><a href="vagas.html">Vagas</a><a href="status.html">Status</a></nav>
+  <span class="meta" id="atualizado"></span></div></header>
+<section class="home">
+  <div class="network" aria-hidden="true"></div><div class="network b" aria-hidden="true"></div>
+  <div>
+    <p class="eyebrow">Analista de Dados · Engenheiro de Dados · Business Intelligence</p>
+    <h1>Alexsander<br>Ornelas</h1>
+    <p class="digita" data-digita='["Analista de Dados","Engenheiro de Dados","Business Intelligence"]'>&gt; buscando vagas de <b></b><i></i></p>
+    <p class="ola">Olá, Alexsander.</p>
+    <p class="frase">Sua busca de vagas, organizada em um só <em>lugar.</em></p>
+    <p class="sub">Vagas encontradas pela automação com currículo pronto para cada uma, e o acompanhamento de todas as candidaturas que você já enviou.</p>
+    <div class="acoes-home"><a class="btn primary" href="vagas.html">Ver vagas</a><a class="btn" href="status.html">Status das candidaturas</a><a class="btn" href="https://alexsander-ornelas.github.io/portfolio-alexsander/" target="_blank" rel="noopener">Portfólio</a></div>
+  </div>
+  <div class="retrato">
+    <img src="https://alexsander-ornelas.github.io/portfolio-alexsander/alexsander-photo.png" alt="Alexsander Ornelas">
+    <div class="legenda"><b>ALEXSANDER ORNELAS</b><span>Analista de Dados</span></div>
+  </div>
+</section>
+<section class="painel">
+  <div class="kpi reveal">
+    <a class="kpi-link" href="vagas.html" aria-label="Ver todas as vagas"></a>
+    <div class="ic">Vagas abertas</div><b id="kVagas" data-conta>0</b>
+    <span class="atalhos"><a href="vagas.html?origem=nac"><em id="kNac">0</em> nacionais</a><a href="vagas.html?origem=intl"><em id="kIntl">0</em> internacionais</a></span>
+  </div>
+  <div class="kpi reveal">
+    <a class="kpi-link" href="vagas.html?local=bsb" aria-label="Ver vagas em Brasília"></a>
+    <div class="ic">Em Brasília</div><b id="kBsb" data-conta>0</b>
+    <span class="atalhos"><a href="vagas.html?local=br"><em id="kBr">0</em> no Brasil home office</a></span>
+  </div>
+  <div class="kpi reveal">
+    <a class="kpi-link" href="status.html" aria-label="Ver todas as candidaturas"></a>
+    <div class="ic">Candidaturas</div><b id="kCand" data-conta>0</b>
+    <span class="atalhos"><a href="status.html?status=Encerrada%20sem%20retorno"><em id="kEnc">0</em> encerradas sem retorno</a><a href="status.html?status=N%C3%A3o%20avan%C3%A7ou"><em id="kNao">0</em> não avançou</a></span>
+  </div>
+  <div class="kpi reveal destaque">
+    <a class="kpi-link" href="status.html?status=Em%20andamento" aria-label="Ver candidaturas em andamento"></a>
+    <div class="ic">Em andamento</div><b id="kAnd" data-conta>0</b>
+    <span class="atalhos"><a href="status.html?status=Aguardando%20retorno"><em id="kAgu">0</em> aguardando retorno</a><a href="status.html?status=Banco%20de%20talentos"><em id="kBan">0</em> banco de talentos</a></span>
+  </div>
+</section>
+<footer class="rodape">
+  <a href="index.html" class="logo">AO<b>.</b></a>
+  <p>© 2026 Alexsander Ornelas</p>
+  <a href="https://www.linkedin.com/in/alexsander-ornelas" target="_blank" rel="noreferrer">LINKEDIN</a>
+</footer>
+<script src="dados/vagas.js"></script>
+<script src="dados/status.js"></script>
+<script src="assets/site.js"></script>
+<script>
+  const V = (window.VAGAS_DADOS || {vagas:[]}).vagas, S = (window.STATUS_DADOS || {candidaturas:[]}).candidaturas;
+  const $ = id => document.getElementById(id);
+  $("kVagas").textContent = V.length;
+  const bsb = v => /Bras[ií]lia/.test(v.local || ""), nSt = st => S.filter(s => s.status === st).length;
+  $("kNac").textContent = V.filter(v => !v.internacional).length;
+  $("kIntl").textContent = V.filter(v => v.internacional).length;
+  $("kBsb").textContent = V.filter(bsb).length;
+  $("kBr").textContent = V.filter(v => !bsb(v)).length;
+  $("kCand").textContent = S.length;
+  $("kEnc").textContent = nSt("Encerrada sem retorno");
+  $("kNao").textContent = nSt("Não avançou");
+  $("kAnd").textContent = nSt("Em andamento");
+  $("kAgu").textContent = nSt("Aguardando retorno");
+  $("kBan").textContent = nSt("Banco de talentos");
+  const at = (window.VAGAS_DADOS || {}).atualizado_em;
+  $("atualizado").textContent = at ? "Atualizado em " + new Date(at).toLocaleString("pt-BR", {dateStyle:"short", timeStyle:"short"}) : "";
+</script>
+</body>
+</html>
