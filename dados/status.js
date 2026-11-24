@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-24T16:15:55-03:00",
+ "atualizado_em": "2026-11-24T20:13:12-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -221,12 +221,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Engenheiro de Dados",
@@ -235,12 +236,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Analista de Projetos de Negócios",
@@ -249,12 +251,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Cientista de Dados",
@@ -263,12 +266,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Analista de Dados - CX",
@@ -277,12 +281,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Analista de Dados",
@@ -291,12 +296,13 @@ window.STATUS_DADOS = {
    "plataforma": "Catho",
    "candidatura": "em 15/09/2026",
    "data_aprox": "2026-09-15",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "CV enviado · vaga ativa",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://www.catho.com.br/area-candidato/metricas/cvs-enviados",
+   "fonte_email": true
   },
   {
    "titulo": "Analista de Power BI e Visualização de Dados",
@@ -305,12 +311,13 @@ window.STATUS_DADOS = {
    "plataforma": "Indeed",
    "candidatura": "em 6 de ago",
    "data_aprox": "2026-08-06",
-   "status": "Aguardando retorno",
+   "status": "Encerrada sem retorno",
    "etapa": "Currículo enviado · vaga ainda aberta",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "",
-   "link": "https://myjobs.indeed.com/applied"
+   "observacao": "Mais de 30 dias sem retorno (rodada de 24/11/2026)",
+   "link": "https://myjobs.indeed.com/applied",
+   "fonte_email": true
   },
   {
    "titulo": "Banco de talentos",

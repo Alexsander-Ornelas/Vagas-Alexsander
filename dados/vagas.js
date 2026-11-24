@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T16:15:11-03:00",
+ "atualizado_em": "2026-11-24T20:12:54-03:00",
  "vagas": [
   {
    "id": "linkedin-4494150447",
@@ -53,6 +53,32 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
    "curriculo": "curriculos/linkedin-4494726103.pdf"
+  },
+  {
+   "id": "linkedin-4494730634",
+   "dia": "2026-11-24",
+   "titulo": "Data Engineer Pleno – Sustentação de Ambientes de Dados",
+   "empresa": "Keyrus",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494730634/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494730634/"
+   },
+   "descricao": "Why Keyrus, Why Now!\n A Keyrus é um grupo internacional com 2.800 consultores e especialistas em 28 países , construído sobre uma convicção: a IA não transforma empresas. A inteligência arquitetada transforma.\n Há mais de 30 anos, construímos as bases de dados que tornam os sistemas inteligentes possíveis, projetando o Sistema Operacional da Empresa Inteligente, onde a inteligência está incorporada ao núcleo dos processos de negócio para criar valor sustentável: operacionalizamos a inteligência.\n A IA não substitui os seres humanos. Ela nos reposiciona em um lugar que nenhum sistema pode alcançar: compreender, decidir, criar e inovar.\nNa Keyrus, você não desenvolverá apenas habilidades; desenvolverá discernimento. Sua expertise se fortalece a cada sistema que você projeta, a cada desafio de negócio que ajuda a resolver e a cada implementação que evolui a partir dos aprendizados anteriores.\nCom o tempo, você se tornará um dos profissionais mais raros da era da inteligência: alguém capaz de conectar dados, IA e tomada de decisão humana em escala, entre diferentes setores, mercados e geografias.\nEsta não é apenas uma posição. É uma disciplina que você domina e uma história que ajuda a escrever para se tornar um Arquiteto da Inteligência da Keyrus.\n A tecnologia amplia capacidades. A cultura da Keyrus diferencia. A excelência na execução conecta ambas.\n O QUE VOCÊ IRÁ ARQUITETAR\n Esta posição combina visão arquitetural, profundidade técnica e atuação consultiva. Buscamos profissionais capazes de transformar desafios complexos em soluções de dados escaláveis, modernas e orientadas a resultados.\n QUEM VOCÊ É\n Você é um profissional experiente que combina conhecimento técnico com visão estratégica de negócio.\nVocê entende que dados são a base para decisões mais inteligentes e para a transformação das organizações.\nVocê consegue navegar com naturalidade entre discussões arquiteturais, implementação técnica e relacionamento com stakeholders.\nVocê gosta de estruturar ambientes complexos, criar padrões e impulsionar a evolução tecnológica.\nVocê equilibra pragmatismo e inovação, priorizando soluções que geram impacto real.\nVocê compartilha conhecimento e contribui para o crescimento técnico das equipes ao seu redor.\nVocê possui perfil consultivo, analítico e orientado à resolução de problemas.\n O QUE VOCÊ TRAZ\n Buscamos um(a) Data Engineer Pleno para atuar na sustentação e operação de plataformas de dados, com foco em ambientes Databricks e Snowflake .\nA pessoa será r",
+   "tipo": "engenheiro",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 7.000 – R$ 13.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Glassdoor: Keyrus, cargo Data Engineer (103 salários informados; média R$ 10 mil)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Keyrus-Data-Engineer-Sal%C3%A1rios-E158808_D_KO7,20.htm"
+   },
+   "curriculo": "curriculos/linkedin-4494730634.pdf"
   },
   {
    "id": "linkedin-4494330888",
@@ -157,6 +183,58 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
    "curriculo": "curriculos/linkedin-4494382462.pdf"
+  },
+  {
+   "id": "linkedin-4493049313",
+   "dia": "2026-11-24",
+   "titulo": "Analista de Dados (Azure)",
+   "empresa": "ART IT Intelligent Technology",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4493049313/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4493049313/"
+   },
+   "descricao": "Experiência em Azure (ETL, armazenamento, DataLake, DataBricks, Datafactory)\n Experiência sólida em linguagem SQL e Pyspark \n Experiência em banco de dados relacional, dimensional (DataWarehouse e Synapse)\n Experiência em Modelagem de dados\n Experiência em ferramentas de visualização: Power BI , Metabase e Dataflow\n Experiência com GitHub e Visual Studio\n Experiência em Cubos (linguagem M e DAX, procedures)\n Experiência em Analysis Services.\n Experiência em API.\n Experiencia em Log analytics;\n Experiência em Airflow;\n Modelo: Remoto\n 💰 Contratação PJ\n 🕒 Horário comercial\n Benefícios PJ \n 🛫 10 dias de descanso remunerado por ano\n 💬 Programa de idiomas\n 📚 Plataforma Alura para treinamentos\n 🎓 Parcerias com instituições de ensino superior\n 💪 Wellhub (antigo Gympass)\n 🩺 Convênio médico e odontológico com condições especiais\n 🧠 Sessões online de psicoterapia e nutrição (Conexa)\n 🕹️ Gamificação com troca de pontos por benefícios\n 🎂 Day off no mês do aniversário\n 💻 Auxílio para equipamentos",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/linkedin-4493049313.pdf"
+  },
+  {
+   "id": "linkedin-4494170286",
+   "dia": "2026-11-24",
+   "titulo": "Analista de BI",
+   "empresa": "42 Data Labs",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494170286/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494170286/"
+   },
+   "descricao": "Analista de BI (Business Intelligence Analyst) \n Local: Remoto\n Tipo de contratação: PJ\n Área: Business Intelligence / Dados\n Sobre a 42 Data Labs \n A 42 Data Labs é uma consultoria canadense de tecnologia especializada em dados, analytics e inteligência artificial. Desenvolvemos soluções que transformam dados em eficiência operacional e em decisões de negócio mais inteligentes, atendendo clientes na América Latina, na América do Norte e na União Europeia.\n Sobre a oportunidade \n Buscamos um(a) Analista de BI com pelo menos 2 anos de experiência em Business Intelligence para prestar serviços em projetos de dados para clientes internacionais.\n Escopo de atuação \n Elaborar e gerir dashboards e relatórios de Business Intelligence para apoiar a tomada de decisão, principalmente em Qlik Sense.\n Construir e manter pipelines de ETL, garantindo a qualidade e a integridade dos dados, com stack principal em Snowflake e DBT.\n Colaborar com equipes multidisciplinares em projetos conduzidos com Scrum e Kanban.\n Requisitos obrigatórios \n Pelo menos 2 anos de experiência prática com ETL, BI e análise de dados.\n Conhecimento em ferramentas de ETL/ELT, como Data Factory, Talend ou DBT.\n Experiência com a ferramenta de visualização Qlik Sense.\n Experiência com SQL e manipulação de grandes volumes de dados.\n Experiência com Snowflake ou outro data warehouse em nuvem (BigQuery, Redshift, Azure Synapse, Databricks ou similares).\n Inglês avançado (leitura, escrita e conversação).\n Diferenciais (não eliminatórios) \n Experiência com Power BI, Tableau ou similares.\n Prática em desenvolvimento com ferramentas de LLM.\n Conhecimento de conceitos básicos de desenvolvimento de software, como Git, CI/CD e infraestrutura.\n O que oferecemos \n Atuação em projetos de dados de alcance internacional.\n Oportunidade real de crescimento técnico e profissional.\n Budget para certificações técnicas.\n Ambiente colaborativo, com forte cultura de dados.\n Autonomia para organizar a própria rotina de trabalho, respeitando entregas e alinhamentos de projeto.\n Informações importantes \n A contratação é exclusivamente PJ. Não é preciso ter CNPJ para se candidatar, mas ele precisa estar ativo e regularizado para a formalização do contrato.\n A atuação é exclusivamente remota (home office).\n Para facilitar a comunicação com clientes e equipes de projeto, esperamos disponibilidade preferencial para alinhamentos entre 9h e 17h (horário de Brasília), de segunda a sexta-feira.\n Como atendemos clientes nos Estados ",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/linkedin-4494170286.pdf"
   },
   {
    "id": "linkedin-4494085506",
