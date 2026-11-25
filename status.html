@@ -92,13 +92,17 @@
     }).join("");
   };
   const cls = s => s === "Em andamento" ? "and" : s === "Aguardando retorno" ? "agu" : s === "Não avançou" ? "nao" : s === "Banco de talentos" ? "ban" : s === "Vaga cancelada" ? "can" : "enc";
-  // Ordem: quem está mais longe no processo primeiro (maior % das etapas, depois maior etapa),
-  // em seguida os demais pela situação, e dentro de cada grupo a candidatura mais recente primeiro.
+  // Ordem (pedido do Alexsander): 1) candidaturas com etapas (quem está mais longe primeiro);
+  // 2) candidaturas ativas em que a empresa pediu algo a ele (teste, entrevista, documento…);
+  // 3) as demais, da candidatura mais recente para a mais antiga.
   const PESO = { "Em andamento": 0, "Aguardando retorno": 1, "Banco de talentos": 2, "Não avançou": 3, "Vaga cancelada": 4, "Encerrada sem retorno": 5 };
+  const ATIVA = c => ["Em andamento", "Aguardando retorno", "Banco de talentos"].includes(c.status);
+  const PEDIU = /solicit|teste|entrevista|pendent|falta |responder|desafio|convite|agend|documento|assessment|case t[eé]cnico/i;
+  const grupoSt = c => c.etapas_total ? 0 : (c.acao || (ATIVA(c) && PEDIU.test((c.etapa || "") + " " + (c.observacao || "")))) ? 1 : 2;
   const prog = c => c.etapas_total ? c.etapa_atual / c.etapas_total : -1;
   const quando = c => c.data_aprox || (c.candidatura && /\d{2}\/\d{2}\/\d{4}/.test(c.candidatura) ? c.candidatura.match(/(\d{2})\/(\d{2})\/(\d{4})/).slice(1).reverse().join("-") : "") || "";
-  const ordem = (a, b) => (prog(b) - prog(a)) || ((b.etapa_atual || 0) - (a.etapa_atual || 0))
-    || ((PESO[a.status] ?? 9) - (PESO[b.status] ?? 9)) || quando(b).localeCompare(quando(a));
+  const ordem = (a, b) => (grupoSt(a) - grupoSt(b)) || (prog(b) - prog(a)) || ((b.etapa_atual || 0) - (a.etapa_atual || 0))
+    || quando(b).localeCompare(quando(a)) || ((PESO[a.status] ?? 9) - (PESO[b.status] ?? 9));
   function render() {
     const q = $("busca").value.trim().toLowerCase(), st = $("status").value, pl = $("plat").value;
     const L = C.filter(c => (!st || c.status === st) && (!pl || c.plataforma === pl) && (!q || (c.titulo + " " + c.empresa).toLowerCase().includes(q)))
