@@ -213,12 +213,7 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
-   "curriculo": "curriculos/linkedin-4494382462.pdf",
-   "candidatura": {
-    "status": "enviada",
-    "data": "2026-11-25",
-    "obs": "Faltam os testes Algorithms e OOP Proficiency para ativar a candidatura"
-   }
+   "curriculo": "curriculos/linkedin-4494382462.pdf"
   },
   {
    "id": "indeed-231d5fed1aa67b66",

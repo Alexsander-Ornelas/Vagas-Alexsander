@@ -3284,20 +3284,6 @@ window.STATUS_DADOS = {
    "observacao": "Recebimento confirmado pela Chainlink Labs (Ashby) por e-mail em 24/11",
    "link": "https://www.linkedin.com/jobs/view/4478511422/",
    "fonte_email": true
-  },
-  {
-   "titulo": "Data Analyst (Spark & SQL) - Remote Work",
-   "empresa": "BairesDev",
-   "local": "Brasil · Remoto",
-   "plataforma": "LinkedIn",
-   "candidatura": "25/11/2026",
-   "data_aprox": "2026-11-25",
-   "status": "Aguardando retorno",
-   "etapa": "Candidatura feita no site da BairesDev · testes feitos, falta a apresentação em inglês",
-   "etapa_atual": null,
-   "etapas_total": null,
-   "observacao": "Testes Algorithms e OOP Proficiency feitos. Falta gravar a apresentação em áudio ou vídeo em inglês no Applicant Site para ativar a candidatura",
-   "link": "https://www.linkedin.com/jobs/view/4494382462/"
   }
  ],
  "plataformas": [
