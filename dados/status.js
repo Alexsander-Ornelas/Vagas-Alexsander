@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T13:24:13-03:00",
+ "atualizado_em": "2026-11-25T15:31:33-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3367,6 +3367,54 @@ window.STATUS_DADOS = {
    "link": "https://www.linkedin.com/jobs/view/4494085506/",
    "automatica": true,
    "aplicada_em": "2026-11-25T13:24:13-03:00"
+  },
+  {
+   "titulo": "Engenheiro(a) de Dados - Remoto",
+   "empresa": "Mesha Tecnologia",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada no site da Mesha (InHire), com 8 perguntas de nível técnico respondidas",
+   "link": "https://www.linkedin.com/jobs/view/4494726103/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T15:31:33-03:00"
+  },
+  {
+   "titulo": "Data Engineer Pleno – Sustentação de Ambientes de Dados",
+   "empresa": "Keyrus",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada no Indeed; no LinkedIn a vaga não aceitava mais candidaturas",
+   "link": "https://www.linkedin.com/jobs/view/4494730634/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T15:31:33-03:00"
+  },
+  {
+   "titulo": "Engenheiro(a) de Analytics",
+   "empresa": "Arbit",
+   "local": "Brasil · Remoto",
+   "plataforma": "Indeed",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada no site de vagas da Arbit (Menvie), com cadastro completo",
+   "link": "https://br.indeed.com/viewjob?jk=231d5fed1aa67b66",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T15:31:33-03:00"
   }
  ],
  "plataformas": [

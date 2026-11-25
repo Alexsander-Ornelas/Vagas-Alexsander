@@ -190,8 +190,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494726103.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada no site da Mesha (InHire), com 8 perguntas de nível técnico respondidas",
+    "aplicada_em": "2026-11-25T15:31:33-03:00"
    }
   },
   {
@@ -222,8 +224,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494730634.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada no Indeed; no LinkedIn a vaga não aceitava mais candidaturas",
+    "aplicada_em": "2026-11-25T15:31:33-03:00"
    }
   },
   {
@@ -362,8 +366,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/indeed-231d5fed1aa67b66.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada no site de vagas da Arbit (Menvie), com cadastro completo",
+    "aplicada_em": "2026-11-25T15:31:33-03:00"
    }
   },
   {
