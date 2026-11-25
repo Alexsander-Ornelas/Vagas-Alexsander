@@ -1551,11 +1551,11 @@ window.VAGAS_DADOS = {
    "local": "Brasil",
    "modalidade": "Remoto",
    "plataformas": [
-    "WhatsApp (Dados BSB)"
+    "WhatsApp"
    ],
    "link": "https://web.whatsapp.com/",
    "links": {
-    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+    "WhatsApp": "https://web.whatsapp.com/"
    },
    "descricao": "Vaga divulgada no grupo de WhatsApp Dados BSB em 18/11/2026 (vaga urgente).\nLocal: São José dos Pinhais - PR (Home Office). Horário: segunda a sexta, 9h às 18h. Contratação: prestador PJ.\nRequisitos:\nSQL avançado: joins, CTEs, window functions, agregações, subqueries e otimização de consultas;\nExcel intermediário/avançado: tabelas dinâmicas, PROCX/PROCV, SOMASES, fórmulas aninhadas, Power Query e gráficos;\nDatabricks: SQL Editor, notebooks e SQL Warehouse; navegação em catálogos e tabelas (Unity Catalog);\ndbt: models, sources, testes (unique, not_null, relationships), documentação, ref e macros simples;\nPower BI: modelagem de dados (relacionamentos, star schema), DAX (medidas, CALCULATE, inteligência de tempo), Power Query e publicação no Power BI Service;\nMetabase: perguntas, filtros, dashboards, consultas SQL nativas e controle de acesso;\nModelagem analítica; estatística básica (média, mediana, desvio-padrão, percentis, correlação, tendência);\nVisualização: boas práticas de gráficos e dashboards;\nVersionamento: Git básico para o projeto dbt (branches e pull requests).\nComo se candidatar: enviar CV/LinkedIn + pretensão salarial PJ por e-mail para a recrutadora da Nexmuv (contato no post do grupo).",
    "tipo": "analista",
@@ -2931,11 +2931,11 @@ window.VAGAS_DADOS = {
    "local": "Brasília, DF",
    "modalidade": "Híbrido",
    "plataformas": [
-    "WhatsApp (Dados BSB)"
+    "WhatsApp"
    ],
    "link": "https://web.whatsapp.com/",
    "links": {
-    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+    "WhatsApp": "https://web.whatsapp.com/"
    },
    "descricao": "Vaga divulgada por um membro do grupo de WhatsApp Dados BSB em 13/11/2026 (indicação interna; o gestor está analisando os indicados).\nLocal: Asa Norte (601), Brasília/DF. Presencial às terças e quintas, das 10h às 19h. PJ R$ 8 mil + benefícios.\nAtividades:\n- Implementação e gestão de ferramentas de Business Intelligence (Power BI e SQL) e IA analítica.\n- Automação de processos para eliminar a geração manual de relatórios.\n- Governança, higiene e validação das métricas dos sistemas internos (TI/Financeiro).\n- Garantir a integridade dos dados para a tomada de decisão.\n- Acompanhamento de indicadores críticos (sales forecast, taxa de conversão e receita líquida).\n- Análise de rentabilidade projetada de propostas comerciais (PBT).\nRequisitos obrigatórios: domínio de ferramentas de IA; Excel avançado; experiência prática com Power BI; metodologias de planejamento e análise de dados; entendimento de DRE, receita bruta/líquida, margens e precificação de serviços; noções de estatística aplicada a negócios (regressão, médias ponderadas, séries temporais); residir em Brasília.\nComo se candidatar: falar com quem divulgou a vaga no grupo.",
    "tipo": "analista",
@@ -3061,11 +3061,11 @@ window.VAGAS_DADOS = {
    "local": "Brasil",
    "modalidade": "Remoto",
    "plataformas": [
-    "WhatsApp (Dados BSB)"
+    "WhatsApp"
    ],
    "link": "https://web.whatsapp.com/",
    "links": {
-    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+    "WhatsApp": "https://web.whatsapp.com/"
    },
    "descricao": "Vaga divulgada no grupo de WhatsApp Dados BSB em 10/11/2026.\nData Engineer com inglês avançado/fluente para atuar em um projeto com o Google.\nRequisitos e ferramentas: experiência com Google Cloud Platform (GCP); conhecimento em BigQuery, Dataflow ou Looker; experiência com Data Platform on GCP; Data Governance é diferencial; inglês avançado/fluente.\nModelo de atuação: 100% remoto. Horário: comercial Brasil ou GMT-5 (11h às 20h). Contratação: PJ – subcontratação. Início imediato. Duração: até 31/12, com possibilidade de extensão.\nComo se candidatar: enviar currículo pelo WhatsApp da recrutadora (contato no post do grupo).",
    "tipo": "engenheiro",
