@@ -188,7 +188,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494726103.pdf"
+   "curriculo": "curriculos/linkedin-4494726103.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4494730634",
@@ -216,7 +220,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: Keyrus, cargo Data Engineer (103 salários informados; média R$ 10 mil)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Keyrus-Data-Engineer-Sal%C3%A1rios-E158808_D_KO7,20.htm"
    },
-   "curriculo": "curriculos/linkedin-4494730634.pdf"
+   "curriculo": "curriculos/linkedin-4494730634.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4494330888",
@@ -352,7 +360,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/indeed-231d5fed1aa67b66.pdf"
+   "curriculo": "curriculos/indeed-231d5fed1aa67b66.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4493049313",
