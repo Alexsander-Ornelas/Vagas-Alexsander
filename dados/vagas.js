@@ -189,9 +189,9 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494382462.pdf",
    "candidatura": {
-    "status": "erro",
-    "data": "2026-11-24",
-    "obs": "site da BairesDev exige login/cadastro"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Faltam os testes Algorithms e OOP Proficiency para ativar a candidatura"
    }
   },
   {

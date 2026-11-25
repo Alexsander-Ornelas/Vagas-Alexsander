@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-24T23:56:17-03:00",
+ "atualizado_em": "2026-11-25T00:01:53-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3283,6 +3283,20 @@ window.STATUS_DADOS = {
    "etapas_total": null,
    "observacao": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)",
    "link": "https://www.linkedin.com/jobs/view/4478511422/"
+  },
+  {
+   "titulo": "Data Analyst (Spark & SQL) - Remote Work",
+   "empresa": "BairesDev",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura feita no site da BairesDev · perfil incompleto (testes de conhecimento pendentes)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Faltam os testes Algorithms e OOP Proficiency para ativar a candidatura",
+   "link": "https://www.linkedin.com/jobs/view/4494382462/"
   }
  ],
  "plataformas": [
