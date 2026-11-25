@@ -1,7 +1,59 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-25T04:13:05-03:00",
+ "atualizado_em": "2026-11-25T08:11:49-03:00",
  "vagas": [
+  {
+   "id": "linkedin-4487021414",
+   "dia": "2026-11-25",
+   "titulo": "BI Developer (Power BI & UX/UI Design) - Remote Work | REF#309174",
+   "empresa": "BairesDev",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4487021414/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4487021414/"
+   },
+   "descricao": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\nBI Developer (Power BI & UX/UI Design) at BairesDev\nTake on the role of BI Developer and build dashboards that are as clear to use as they are rich in insight. You will apply design thinking to analytics.\nWhat You'll Do\n Develop interactive reports that turn complex data into clear stories.\n Shape data models and measures that support accurate analysis.\n Craft layouts, navigation, and visual hierarchy that guide users to answers.\n Test usability with business users and refine reports based on feedback.\n Optimize performance so dashboards load quickly and refresh reliably.\n Establish reusable templates and standards for consistent reporting.\nWhat We Are Looking For\n 4+ years of experience in business intelligence development.\n Proven expertise creating dashboards and data models with Power BI.\n Hands-on experience applying UX/UI design principles to data visualization.\n Solid knowledge of SQL, DAX, and data storytelling best practices.\n Advanced proficiency in English.\nHow we do make your work (and your life) easier:\n 100% remote work (from anywhere).\n Excellent compensation in USD or your local currency if preferred\n Hardware and software setup for you to work from home.\n Flexible hours: create your own schedule.\n Paid parental leaves, vacations, and national holidays.\n Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\n Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.",
+   "tipo": "analista",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4487021414.pdf"
+  },
+  {
+   "id": "linkedin-4487008954",
+   "dia": "2026-11-25",
+   "titulo": "Analytics Engineer (Power BI & Microsoft Fabric) - Remote Work | REF#309171",
+   "empresa": "BairesDev",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4487008954/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4487008954/"
+   },
+   "descricao": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\nAnalytics Engineer (Power BI & Microsoft Fabric) at BairesDev\nTake on the role of Analytics Engineer and power business reporting with well-structured data and clear visuals. You will manage the path from data platform to dashboard.\nWhat You'll Do\n Model and prepare data in a unified platform for reporting needs.\n Create semantic models that define measures and relationships consistently.\n Design interactive dashboards that highlight key business insights.\n Optimize refresh schedules and report performance for a smooth experience.\n Apply governance and access controls to protect sensitive information.\n Gather requirements from stakeholders and iterate on reports with them.\nWhat We Are Looking For\n 4+ years of experience in analytics engineering or business intelligence.\n Proven expertise building reports and semantic models with Power BI.\n Hands-on experience with Microsoft Fabric, including data pipelines and lakehouse features.\n Strong SQL and DAX skills, with a solid understanding of data modeling.\n Advanced proficiency in English.\nHow we do make your work (and your life) easier:\n 100% remote work (from anywhere).\n Excellent compensation in USD or your local currency if preferred\n Hardware and software setup for you to work from home.\n Flexible hours: create your own schedule.\n Paid parental leaves, vacations, and national holidays.\n Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\n Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.",
+   "tipo": "engenheiro",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4487008954.pdf"
+  },
   {
    "id": "linkedin-4494466246",
    "dia": "2026-11-25",

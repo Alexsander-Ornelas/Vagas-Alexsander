@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T04:13:12-03:00",
+ "atualizado_em": "2026-11-25T08:12:17-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
