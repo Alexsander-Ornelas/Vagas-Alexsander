@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T11:01:28-03:00",
+ "atualizado_em": "2026-11-25T12:13:15-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3314,10 +3314,11 @@ window.STATUS_DADOS = {
    "etapa": "Candidatura enviada pela automação (pedido pelo site)",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "Enviada no LinkedIn e por e-mail (careers@42datalabs.com)",
+   "observacao": "Enviada no LinkedIn e por e-mail (careers@42datalabs.com); candidatura vista pela 42 Data Labs no LinkedIn em 25/11",
    "link": "https://www.linkedin.com/jobs/view/4494170286/",
    "automatica": true,
-   "aplicada_em": "2026-11-25T11:01:28-03:00"
+   "aplicada_em": "2026-11-25T11:01:28-03:00",
+   "fonte_email": true
   },
   {
    "titulo": "Engenheiro de Dados Pleno | Databricks (Remoto)",

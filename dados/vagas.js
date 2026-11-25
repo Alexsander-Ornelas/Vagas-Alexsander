@@ -1,7 +1,33 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-25T08:11:49-03:00",
+ "atualizado_em": "2026-11-25T12:13:08-03:00",
  "vagas": [
+  {
+   "id": "linkedin-4494626891",
+   "dia": "2026-11-25",
+   "titulo": "Data Engineer - Remote Work",
+   "empresa": "INDI Staffing Services",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494626891/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494626891/"
+   },
+   "descricao": "At INDI, we're passionate about empowering individuals and businesses worldwide. Our cutting-edge recruiters connect leading companies with top talent, fostering a dynamic environment where innovation thrives. Join us in shaping the future of work.\n Overview of the role:\n We are looking for a Data Engineer to join our Analyst team and participate in different projects made up of multicultural teams distributed throughout the world. We are looking for proactive people, team players passionate about programming in this language and oriented to provide the best experience to the end user. This is an excellent opportunity for those professionals looking to develop in one of the fastest-growing companies in the industry!\n Key responsibilities:\n - Collaborate with stakeholders to understand reporting requirements, finding and querying data sources to obtain the necessary data.\n - Cleanse and massage data into the desired shape, creating Tableau datasets, reports, and dashboards as needed.\n - Present the finished product and solicit comments from stakeholders.\n - Deploy data, reports, and dashboards to Tableau; create reports based on analyst parameters.\n - Upkeep and processing of SQL Server SPs and queries.\n Requirements:\n - +3 years of experience as a Data Engineer.\n - Knowledge of Tableau administration, licensing, security, and deployment, as well as at least one year of prior work experience with Tableau.\n - A thorough comprehension of the ideas involved in relational data modeling.\n - Strong analytic skills, hands-on approach, and the ability to execute on promises.\n - Strong organizational abilities, as well as a methodical approach to implementation, support, and documentation.\n - Advanced English proficiency.\n Benefits:\n - Flexibility: Choose where and how you work for enhanced creativity and innovation.\n - Tailored Compensation: Personalize your earnings to suit your financial goals.\n - Tech-Driven Tools: Access cutting-edge resources for seamless collaboration and productivity.\n - Autonomous Workflow: Take control of your schedule to achieve work-life balance.\n - Well-being: Enjoy generous leave policies for rest and rejuvenation.\n - Diversity & Inclusion: Thrive in a diverse and inclusive environment.\n - Collaboration: Engage with industry leaders for collective growth.\n - Development: Access mentorship and growth opportunities for continuous advancement.",
+   "tipo": "engenheiro",
+   "internacional": true,
+   "salario": {
+    "valor": "US$ 2.500 – US$ 4.500/mês (vaga internacional, faixa não divulgada)",
+    "origem": "pesquisado",
+    "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
+    "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
+   },
+   "curriculo": "curriculos/linkedin-4494626891.pdf"
+  },
   {
    "id": "linkedin-4487021414",
    "dia": "2026-11-25",
@@ -53,6 +79,32 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
    "curriculo": "curriculos/linkedin-4487008954.pdf"
+  },
+  {
+   "id": "linkedin-4487018733",
+   "dia": "2026-11-25",
+   "titulo": "BI Developer (Power BI & Power Platform) - Remote Work | REF#309173",
+   "empresa": "BairesDev",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4487018733/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4487018733/"
+   },
+   "descricao": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\nBI Developer (Power BI & Power Platform) at BairesDev\nIn this role, you will deliver reporting and low-code solutions that put insights and automation in users' hands. You will help teams make faster decisions.\n What You'll Do\n Design and build interactive dashboards that answer key business questions.\n Develop data models that keep reports accurate and fast.\n Create low-code apps and automated workflows that reduce manual work.\n Connect diverse data sources into consistent, governed datasets.\n Manage refresh schedules, security, and workspace administration.\n Gather requirements from business users and iterate on solutions.\n What We Are Looking For\n 4+ years of experience in business intelligence development.\n Proven expertise building reports and data models with Power BI, including DAX.\n Hands-on experience creating apps and automations with Microsoft Power Platform.\n Solid knowledge of SQL, data modeling, and ETL concepts.\n Advanced proficiency in English.\n How we do make your work (and your life) easier:\n 100% remote work (from anywhere).\n Excellent compensation in USD or your local currency if preferred\n Hardware and software setup for you to work from home.\n Flexible hours: create your own schedule.\n Paid parental leaves, vacations, and national holidays.\n Innovative and multicultural work environment: collaborate and learn from the global Top 1% of talent.\n Supportive environment with mentorship, promotions, skill development, and diverse growth opportunities.",
+   "tipo": "analista",
+   "internacional": true,
+   "salario": {
+    "valor": "R$ 5.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Glassdoor: BairesDev, cargo BI Developer (2 salários informados; faixa típica)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-BI-Developer-Sal%C3%A1rios-E864485_D_KO10,22.htm"
+   },
+   "curriculo": "curriculos/linkedin-4487018733.pdf"
   },
   {
    "id": "linkedin-4494466246",
