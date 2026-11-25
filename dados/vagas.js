@@ -156,7 +156,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
-   "curriculo": "curriculos/linkedin-4478511422.pdf"
+   "curriculo": "curriculos/linkedin-4478511422.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-24"
+   }
   },
   {
    "id": "linkedin-4494382462",
@@ -182,7 +186,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: BairesDev, cargo Data Analyst (20 salários informados; faixa típica)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/BairesDev-Data-Analyst-Sal%C3%A1rios-E864485_D_KO10,22.htm"
    },
-   "curriculo": "curriculos/linkedin-4494382462.pdf"
+   "curriculo": "curriculos/linkedin-4494382462.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-24"
+   }
   },
   {
    "id": "linkedin-4493049313",
