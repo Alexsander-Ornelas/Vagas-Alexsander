@@ -158,8 +158,9 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4478511422.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-24"
+    "status": "enviada",
+    "data": "2026-11-24",
+    "obs": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)"
    }
   },
   {

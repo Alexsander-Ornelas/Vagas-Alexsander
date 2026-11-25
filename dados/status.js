@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-24T20:13:12-03:00",
+ "atualizado_em": "2026-11-24T23:56:17-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3269,6 +3269,20 @@ window.STATUS_DADOS = {
    "observacao": "",
    "link": "https://mail.google.com/mail/u/0/#search/THS%20Tecnologia",
    "fonte_email": true
+  },
+  {
+   "titulo": "Data Platform Engineer",
+   "empresa": "Chainlink Labs",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "24/11/2026",
+   "data_aprox": "2026-11-24",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site) · site da empresa (Ashby)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)",
+   "link": "https://www.linkedin.com/jobs/view/4478511422/"
   }
  ],
  "plataformas": [
