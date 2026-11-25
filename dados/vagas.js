@@ -130,7 +130,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: Aggrandize, cargo Engenheiro de Dados (2 salários enviados)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Aggrandize-Engenheiro-De-Dados-Sal%C3%A1rios-E2771325_D_KO11,30.htm"
    },
-   "curriculo": "curriculos/linkedin-4494466246.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -188,7 +187,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494726103.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -222,7 +220,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: Keyrus, cargo Data Engineer (103 salários informados; média R$ 10 mil)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Keyrus-Data-Engineer-Sal%C3%A1rios-E158808_D_KO7,20.htm"
    },
-   "curriculo": "curriculos/linkedin-4494730634.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -306,7 +303,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Referência: vaga remota de Data Engineer da Sezzle no Brasil divulga US$ 2.800–4.500/mês",
     "fonte_url": "https://www.linkedin.com/jobs/view/4487945636/"
    },
-   "curriculo": "curriculos/linkedin-4478511422.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-24",
@@ -364,7 +360,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/indeed-231d5fed1aa67b66.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -396,7 +391,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4493049313.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -427,7 +421,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494170286.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -459,7 +452,6 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494085506.pdf",
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-25",
@@ -670,7 +662,6 @@ window.VAGAS_DADOS = {
     "fonte_url": "https://br.indeed.com/cmp/Grupo-Seven"
    },
    "descricao": "Vaga temporária (PJ), com possibilidade de efetivação. Atuação presencial em Brasília. Benefícios: nenhum informado.\n\nResponsabilidades\n- Apoiar a gestão e o controle de ponto das operações\n- Consolidar, cruzar e conferir bases de dados operacionais, identificando inconsistências\n- Desenvolver e automatizar planilhas, relatórios e controles com Excel, Power Query e ferramentas de IA\n- Atualizar dashboards, indicadores e faróis de anomalias para as lideranças\n- Padronizar rotinas de extração, tratamento e atualização das informações\n\nRequisitos\n- Superior completo ou em andamento (Ciência de Dados, ADS, SI, Ciência da Computação, Estatística, Administração, Engenharia ou afins)\n- Experiência em análise, tratamento, consolidação e validação de dados\n- Excel avançado e Power Query na prática\n- Uso prático de ferramentas de IA para automação",
-   "curriculo": "curriculos/linkedin-4493901847.pdf",
    "tipo": "analista",
    "links": {
     "LinkedIn": "https://www.linkedin.com/jobs/view/4493901847/"
