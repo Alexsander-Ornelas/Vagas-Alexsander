@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T13:22:08-03:00",
+ "atualizado_em": "2026-11-25T13:24:13-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3351,6 +3351,22 @@ window.STATUS_DADOS = {
    "link": "https://www.linkedin.com/jobs/view/4493901847/",
    "automatica": true,
    "aplicada_em": "2026-11-25T13:22:08-03:00"
+  },
+  {
+   "titulo": "Analista de Inteligência e Performance II",
+   "empresa": "Wiz Co (Omni1)",
+   "local": "Brasília, DF · Híbrido",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada na Gupy (link do LinkedIn), com o currículo do perfil da Gupy",
+   "link": "https://www.linkedin.com/jobs/view/4494085506/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T13:24:13-03:00"
   }
  ],
  "plataformas": [

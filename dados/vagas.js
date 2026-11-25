@@ -443,8 +443,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494085506.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada na Gupy (link do LinkedIn), com o currículo do perfil da Gupy",
+    "aplicada_em": "2026-11-25T13:24:13-03:00"
    }
   },
   {
