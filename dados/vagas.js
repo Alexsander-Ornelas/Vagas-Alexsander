@@ -78,7 +78,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Glassdoor: Aggrandize, cargo Engenheiro de Dados (2 salários enviados)",
     "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Aggrandize-Engenheiro-De-Dados-Sal%C3%A1rios-E2771325_D_KO11,30.htm"
    },
-   "curriculo": "curriculos/linkedin-4494466246.pdf"
+   "curriculo": "curriculos/linkedin-4494466246.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4494150447",
@@ -320,7 +324,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4493049313.pdf"
+   "curriculo": "curriculos/linkedin-4493049313.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4494170286",
@@ -346,7 +354,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494170286.pdf"
+   "curriculo": "curriculos/linkedin-4494170286.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4494085506",
