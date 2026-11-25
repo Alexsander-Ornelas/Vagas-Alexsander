@@ -657,8 +657,10 @@ window.VAGAS_DADOS = {
    },
    "internacional": false,
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada na Empregare (link do LinkedIn), com o currículo do perfil da Empregare",
+    "aplicada_em": "2026-11-25T13:22:08-03:00"
    }
   },
   {

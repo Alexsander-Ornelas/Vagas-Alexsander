@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T12:13:15-03:00",
+ "atualizado_em": "2026-11-25T13:22:08-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3335,6 +3335,22 @@ window.STATUS_DADOS = {
    "link": "https://www.linkedin.com/jobs/view/4494466246/",
    "automatica": true,
    "aplicada_em": "2026-11-25T11:01:28-03:00"
+  },
+  {
+   "titulo": "Analista de Dados | Contrato Temporário (PJ)",
+   "empresa": "Grupo Seven",
+   "local": "Brasília, DF · Presencial",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada na Empregare (link do LinkedIn), com o currículo do perfil da Empregare",
+   "link": "https://www.linkedin.com/jobs/view/4493901847/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T13:22:08-03:00"
   }
  ],
  "plataformas": [
