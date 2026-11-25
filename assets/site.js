@@ -107,7 +107,7 @@
 
   // ---------- Alerta: limite de resultados negativos nas candidaturas automáticas ----------
   // Pedido do Alexsander: se 20 candidaturas feitas pela automação (botão Candidatar) forem recusadas
-  // ou ficarem mais de 40 dias sem resposta, avisar que é hora de mudar a forma de mandar as candidaturas.
+  // encerradas sem retorno ou ficarem mais de 40 dias sem resposta, avisar que é hora de mudar a forma de mandar as candidaturas.
   const LIMITE = 20, DIAS = 40;
   function alertaNegativos() {
     const C = (window.STATUS_DADOS || {}).candidaturas || [];
@@ -116,8 +116,8 @@
       const d = c.data_aprox || ((c.candidatura || "").match(/(\d{2})\/(\d{2})\/(\d{4})/) || []).slice(1).reverse().join("-");
       return d ? (Date.now() - new Date(d + "T12:00:00-03:00")) / 864e5 : 0;
     };
-    const neg = auto.filter(c => c.status === "Não avançou" ||
-      (["Aguardando retorno", "Encerrada sem retorno"].includes(c.status) && dias(c) > DIAS));
+    const neg = auto.filter(c => ["Não avançou", "Encerrada sem retorno"].includes(c.status) ||
+      (c.status === "Aguardando retorno" && dias(c) > DIAS));
     if (neg.length < LIMITE) return;
     try { if (sessionStorage.getItem("alertaNegativos") === String(neg.length)) return; } catch (e) {}
     const m = document.createElement("div");
@@ -126,7 +126,7 @@
       <button type="button" class="fechar" aria-label="Fechar">×</button>
       <span class="rotulo">Alerta das candidaturas automáticas</span>
       <h3>Limite de resultados negativos atingido</h3>
-      <p>${neg.length} das ${auto.length} candidaturas enviadas pela automação foram recusadas ou estão há mais de ${DIAS} dias sem resposta.
+      <p>${neg.length} das ${auto.length} candidaturas enviadas pela automação foram recusadas, encerradas sem retorno ou estão há mais de ${DIAS} dias sem resposta.
       Precisamos mudar a forma de mandar as candidaturas antes de continuar.</p>
       <a class="btn primary" href="status.html">Ver candidaturas</a></div>`;
     const fechar = () => { m.remove(); try { sessionStorage.setItem("alertaNegativos", String(neg.length)); } catch (e) {} };
