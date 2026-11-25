@@ -89,8 +89,8 @@
   <p>© 2026 Alexsander Ornelas</p>
   <a href="https://www.linkedin.com/in/alexsander-ornelas" target="_blank" rel="noreferrer">LINKEDIN</a>
 </footer>
-<script src="dados/vagas.js"></script>
-<script src="dados/status.js"></script>
+<script>document.write('<script src="dados/vagas.js?v='+Date.now()+'"><\/script>')</script>
+<script>document.write('<script src="dados/status.js?v='+Date.now()+'"><\/script>')</script>
 <script src="assets/site.js"></script>
 <script>
   const V = (window.VAGAS_DADOS || {vagas:[]}).vagas, S = (window.STATUS_DADOS || {candidaturas:[]}).candidaturas;

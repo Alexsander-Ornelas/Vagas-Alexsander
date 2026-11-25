@@ -68,7 +68,7 @@
 </div>
 
 <!-- Os dados vêm de dados/vagas.js, que a automação reescreve a cada rodada -->
-<script src="dados/vagas.js"></script>
+<script>document.write('<script src="dados/vagas.js?v='+Date.now()+'"><\/script>')</script>
 <script src="assets/site.js"></script>
 <script>
   const DADOS = window.VAGAS_DADOS || { atualizado_em: null, vagas: [] };
