@@ -75,6 +75,10 @@
   const DADOS = window.VAGAS_DADOS || { atualizado_em: null, vagas: [] };
   // Vaga com candidatura já enviada sai desta página e passa a aparecer só em Status
   DADOS.vagas = DADOS.vagas.filter(v => !(v.candidatura && v.candidatura.status === "enviada"));
+  // Vagas da BairesDev ficam fora da lista e das contagens; só aparecem ao escolher "BairesDev" no filtro de plataforma
+  const OCULTA = v => /bairesdev/i.test(v.empresa || "");
+  const BAIRES = DADOS.vagas.filter(OCULTA), TODAS = DADOS.vagas;
+  DADOS.vagas = DADOS.vagas.filter(v => !OCULTA(v));
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtDia = d => new Date(d + "T12:00:00").toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "2-digit", year: "numeric" });
@@ -109,7 +113,8 @@
   };
   const tag = t => t ? `<span class="tag cor" style="--c:${COR[t] || "#f7f7f2"}">${esc(t)}</span>` : "";
   const plats = [...new Set(DADOS.vagas.flatMap(v => v.plataformas || []))].sort();
-  $("plataforma").innerHTML += plats.map(p => `<option value="${esc(p)}">${esc(p)} (${DADOS.vagas.filter(v => (v.plataformas || []).includes(p)).length})</option>`).join("");
+  $("plataforma").innerHTML += plats.map(p => `<option value="${esc(p)}">${esc(p)} (${DADOS.vagas.filter(v => (v.plataformas || []).includes(p)).length})</option>`).join("")
+    + (BAIRES.length ? `<option value="BairesDev">BairesDev (${BAIRES.length})</option>` : "");
 
   function render() {
     const dia = $("dia").value, og = $("origem").value, q = $("busca").value.trim().toLowerCase(), ct = $("contrato").value, pf = $("plataforma").value, lc = $("local").value;
@@ -119,11 +124,12 @@
       : /remot/i.test(v.modalidade || "") ? 0 : /h[ií]brid/i.test(v.modalidade || "") ? 1 : /presencial/i.test(v.modalidade || "") ? 2 : 3;
     const contr = v => v.contrato === "CLT" ? 0 : v.contrato === "PJ" ? 1 : 2;
     const ordem = (a, b) => (b.dia || "").localeCompare(a.dia || "") || grupo(a) - grupo(b) || contr(a) - contr(b) || (a.empresa || "").localeCompare(b.empresa || "");
-    const lista = DADOS.vagas.filter(v =>
-      (dia === "*" || v.dia === dia) &&
+    const base = pf === "BairesDev" ? BAIRES : DADOS.vagas;
+    const lista = base.filter(v =>
+      (pf === "BairesDev" || dia === "*" || v.dia === dia) &&
       (!og || (og === "intl") === !!v.internacional) &&
       (!ct || (v.contrato || "Não informado") === ct) &&
-      (!pf || (v.plataformas || []).includes(pf)) &&
+      (!pf || pf === "BairesDev" || (v.plataformas || []).includes(pf)) &&
       (!lc || (lc === "bsb") === bsb(v)) &&
       (!q || [v.titulo, v.empresa, v.descricao].join(" ").toLowerCase().includes(q))
     ).sort(ordem);
@@ -179,7 +185,7 @@
     return `<div class="situacao st-${esc(st)}">${ROTULO[st] || esc(st)}${d ? " em " + new Date(d + "T12:00:00").toLocaleDateString("pt-BR") : ""}${obs}</div>`;
   }
   function pedir(ids) {
-    const vs = ids.map(id => DADOS.vagas.find(v => v.id === id)).filter(Boolean);
+    const vs = ids.map(id => TODAS.find(v => v.id === id)).filter(Boolean);
     if (!vs.length) return;
     const hoje = new Date().toLocaleDateString("sv-SE");
     const titulo = `[Candidatar] ${vs.length === 1 ? vs[0].titulo + " · " + vs[0].empresa : vs.length + " vagas"}`;
@@ -218,7 +224,7 @@
   const fechar = () => { modal.hidden = true; };
   $("lista").addEventListener("click", e => {
     const b = e.target.closest("[data-escolher]");
-    if (b) abrirEscolha(DADOS.vagas.find(v => v.id === b.dataset.escolher));
+    if (b) abrirEscolha(TODAS.find(v => v.id === b.dataset.escolher));
   });
   modal.addEventListener("click", e => { if (e.target === modal || e.target.closest(".fechar") || e.target.closest(".plat")) fechar(); });
   document.addEventListener("keydown", e => { if (e.key === "Escape") fechar(); });
