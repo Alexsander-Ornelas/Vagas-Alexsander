@@ -80,8 +80,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494466246.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada na Sólides (link do LinkedIn); a Sólides avisou que algumas respostas não atendem aos critérios, mas o recrutador pode revisar",
+    "aplicada_em": "2026-11-25T11:01:28-03:00"
    }
   },
   {
@@ -326,8 +328,9 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4493049313.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "aplicada_em": "2026-11-25T11:01:28-03:00"
    }
   },
   {
@@ -356,8 +359,10 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494170286.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-25"
+    "status": "enviada",
+    "data": "2026-11-25",
+    "obs": "Enviada no LinkedIn e por e-mail (careers@42datalabs.com)",
+    "aplicada_em": "2026-11-25T11:01:28-03:00"
    }
   },
   {

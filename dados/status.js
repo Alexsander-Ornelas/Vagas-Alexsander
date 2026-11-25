@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T08:12:17-03:00",
+ "atualizado_em": "2026-11-25T11:01:28-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3286,6 +3286,54 @@ window.STATUS_DADOS = {
    "fonte_email": true,
    "automatica": true,
    "aplicada_em": "2026-11-24T23:56:17-03:00"
+  },
+  {
+   "titulo": "Analista de Dados (Azure)",
+   "empresa": "ART IT Intelligent Technology",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "",
+   "link": "https://www.linkedin.com/jobs/view/4493049313/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T11:01:28-03:00"
+  },
+  {
+   "titulo": "Analista de BI",
+   "empresa": "42 Data Labs",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada no LinkedIn e por e-mail (careers@42datalabs.com)",
+   "link": "https://www.linkedin.com/jobs/view/4494170286/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T11:01:28-03:00"
+  },
+  {
+   "titulo": "Engenheiro de Dados Pleno | Databricks (Remoto)",
+   "empresa": "AGGRANDIZE",
+   "local": "Brasil · Remoto",
+   "plataforma": "LinkedIn",
+   "candidatura": "25/11/2026",
+   "data_aprox": "2026-11-25",
+   "status": "Aguardando retorno",
+   "etapa": "Candidatura enviada pela automação (pedido pelo site)",
+   "etapa_atual": null,
+   "etapas_total": null,
+   "observacao": "Enviada na Sólides (link do LinkedIn); a Sólides avisou que algumas respostas não atendem aos critérios, mas o recrutador pode revisar",
+   "link": "https://www.linkedin.com/jobs/view/4494466246/",
+   "automatica": true,
+   "aplicada_em": "2026-11-25T11:01:28-03:00"
   }
  ],
  "plataformas": [
