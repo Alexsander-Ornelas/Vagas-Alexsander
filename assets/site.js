@@ -104,4 +104,40 @@
     observar(document);
     document.querySelectorAll("#lista").forEach(l => new MutationObserver(() => observar(l)).observe(l, { childList: true }));
   });
+
+  // ---------- Alerta: limite de resultados negativos nas candidaturas automáticas ----------
+  // Pedido do Alexsander: se 20 candidaturas feitas pela automação (botão Candidatar) forem recusadas
+  // ou ficarem mais de 40 dias sem resposta, avisar que é hora de mudar a forma de mandar as candidaturas.
+  const LIMITE = 20, DIAS = 40;
+  function alertaNegativos() {
+    const C = (window.STATUS_DADOS || {}).candidaturas || [];
+    const auto = C.filter(c => c.automatica || /pela automa[cç][aã]o/i.test(c.etapa || ""));
+    const dias = c => {
+      const d = c.data_aprox || ((c.candidatura || "").match(/(\d{2})\/(\d{2})\/(\d{4})/) || []).slice(1).reverse().join("-");
+      return d ? (Date.now() - new Date(d + "T12:00:00-03:00")) / 864e5 : 0;
+    };
+    const neg = auto.filter(c => c.status === "Não avançou" ||
+      (["Aguardando retorno", "Encerrada sem retorno"].includes(c.status) && dias(c) > DIAS));
+    if (neg.length < LIMITE) return;
+    try { if (sessionStorage.getItem("alertaNegativos") === String(neg.length)) return; } catch (e) {}
+    const m = document.createElement("div");
+    m.className = "modal"; m.setAttribute("role", "dialog"); m.setAttribute("aria-modal", "true");
+    m.innerHTML = `<div class="caixa">
+      <button type="button" class="fechar" aria-label="Fechar">×</button>
+      <span class="rotulo">Alerta das candidaturas automáticas</span>
+      <h3>Limite de resultados negativos atingido</h3>
+      <p>${neg.length} das ${auto.length} candidaturas enviadas pela automação foram recusadas ou estão há mais de ${DIAS} dias sem resposta.
+      Precisamos mudar a forma de mandar as candidaturas antes de continuar.</p>
+      <a class="btn primary" href="status.html">Ver candidaturas</a></div>`;
+    const fechar = () => { m.remove(); try { sessionStorage.setItem("alertaNegativos", String(neg.length)); } catch (e) {} };
+    m.addEventListener("click", e => { if (e.target === m || e.target.closest(".fechar")) fechar(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape") fechar(); }, { once: true });
+    document.body.appendChild(m);
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    if (window.STATUS_DADOS) return alertaNegativos();
+    const s = document.createElement("script");
+    s.src = "dados/status.js?v=" + Date.now(); s.onload = alertaNegativos;
+    document.head.appendChild(s);
+  });
 })();
