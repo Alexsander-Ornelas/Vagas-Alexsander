@@ -3293,10 +3293,10 @@ window.STATUS_DADOS = {
    "candidatura": "25/11/2026",
    "data_aprox": "2026-11-25",
    "status": "Aguardando retorno",
-   "etapa": "Candidatura feita no site da BairesDev · perfil incompleto (testes de conhecimento pendentes)",
+   "etapa": "Candidatura feita no site da BairesDev · testes feitos, falta a apresentação em inglês",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "Faltam os testes Algorithms e OOP Proficiency para ativar a candidatura",
+   "observacao": "Testes Algorithms e OOP Proficiency feitos. Falta gravar a apresentação em áudio ou vídeo em inglês no Applicant Site para ativar a candidatura",
    "link": "https://www.linkedin.com/jobs/view/4494382462/"
   }
  ],
