@@ -73,6 +73,8 @@
 <script src="assets/site.js"></script>
 <script>
   const DADOS = window.VAGAS_DADOS || { atualizado_em: null, vagas: [] };
+  // Vaga com candidatura já enviada sai desta página e passa a aparecer só em Status
+  DADOS.vagas = DADOS.vagas.filter(v => !(v.candidatura && v.candidatura.status === "enviada"));
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtDia = d => new Date(d + "T12:00:00").toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "2-digit", year: "numeric" });

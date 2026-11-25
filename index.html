@@ -93,7 +93,7 @@
 <script>document.write('<script src="dados/status.js?v='+Date.now()+'"><\/script>')</script>
 <script src="assets/site.js"></script>
 <script>
-  const V = (window.VAGAS_DADOS || {vagas:[]}).vagas, S = (window.STATUS_DADOS || {candidaturas:[]}).candidaturas;
+  const V = (window.VAGAS_DADOS || {vagas:[]}).vagas.filter(v => !(v.candidatura && v.candidatura.status === "enviada")), S = (window.STATUS_DADOS || {candidaturas:[]}).candidaturas;
   const $ = id => document.getElementById(id);
   $("kVagas").textContent = V.length;
   const bsb = v => /Bras[ií]lia/.test(v.local || ""), nSt = st => S.filter(s => s.status === st).length;
