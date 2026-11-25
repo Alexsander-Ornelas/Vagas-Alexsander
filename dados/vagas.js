@@ -188,8 +188,9 @@ window.VAGAS_DADOS = {
    },
    "curriculo": "curriculos/linkedin-4494382462.pdf",
    "candidatura": {
-    "status": "solicitada",
-    "data": "2026-11-24"
+    "status": "erro",
+    "data": "2026-11-24",
+    "obs": "site da BairesDev exige login/cadastro"
    }
   },
   {
