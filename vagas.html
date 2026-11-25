@@ -47,6 +47,7 @@
     </select>
     <select id="plataforma" aria-label="Plataforma"><option value="">Plataforma: todas</option></select>
     <button type="button" class="limpar" id="limpar">Limpar filtros ×</button>
+    <button type="button" class="btn primary candidatar-sel" id="candSel" hidden>Candidatar</button>
   </div>
   <div class="count" id="count"></div>
   <div id="lista"></div>
@@ -124,15 +125,21 @@
       (!lc || (lc === "bsb") === bsb(v)) &&
       (!q || [v.titulo, v.empresa, v.descricao].join(" ").toLowerCase().includes(q))
     ).sort(ordem);
+    atualizarSel();
     $("count").innerHTML = `<b>${lista.length}</b> vaga${lista.length === 1 ? "" : "s"} encontrada${lista.length === 1 ? "" : "s"}`;
     $("lista").innerHTML = lista.length ? lista.map(v => `
-      <article class="vaga">
+      <article class="vaga${SEL.has(v.id) ? " selecionada" : ""}">
         <div class="top">
-          <div>
+          <div class="titulo-vaga">
+            ${podeCandidatar(v) ? `<label class="sel" title="Selecionar para candidatura em lote"><input type="checkbox" data-sel="${esc(v.id)}" ${SEL.has(v.id) ? "checked" : ""}><span class="visually-hidden">Selecionar</span></label>` : ""}
+            <div>
             <h2>${esc(v.titulo)}</h2>
             <div class="empresa">${esc(v.empresa)} · publicada em ${new Date(v.dia + "T12:00:00").toLocaleDateString("pt-BR")}</div>
+            ${situacaoHtml(v)}
+            </div>
           </div>
           <div class="acoes">
+            ${podeCandidatar(v) ? `<button type="button" class="btn candidatar" data-candidatar="${esc(v.id)}">Candidatar</button>` : ""}
             <a class="btn primary" href="${esc(v.curriculo)}" download="Currículo Alexsander Ornelas.pdf">${v.internacional ? "Baixar currículo (EN)" : "Baixar currículo"}</a>
             ${Object.keys(v.links || {}).length > 1
               ? `<button type="button" class="btn" data-escolher="${esc(v.id)}">Abrir vaga</button>`
@@ -153,6 +160,49 @@
         </details>
       </article>`).join("") : `<div class="vazio">Nenhuma vaga para esse filtro.</div>`;
   }
+
+  // Candidatura: o botão abre um pedido (issue) já preenchido no GitHub; a automação prepara a candidatura
+  // e só envia depois que o Alexsander confirmar no chat. Situação gravada em v.candidatura = {status, data}.
+  const REPO = "https://github.com/Alexsander-Ornelas/vagas-alexsander";
+  const SEL = new Set();
+  let PEDIDOS = {};
+  try { PEDIDOS = JSON.parse(localStorage.getItem("pedidosCandidatura") || "{}"); } catch (e) {}
+  const situacao = v => (v.candidatura && v.candidatura.status) || (PEDIDOS[v.id] ? "pedido" : "");
+  const podeCandidatar = v => !situacao(v);
+  const ROTULO = { pedido: "Pedido de candidatura aberto", solicitada: "Candidatura em preparação", enviada: "Candidatura enviada", erro: "Candidatura não concluída" };
+  function situacaoHtml(v) {
+    const st = situacao(v); if (!st) return "";
+    const d = (v.candidatura && v.candidatura.data) || PEDIDOS[v.id];
+    const obs = v.candidatura && v.candidatura.obs ? " · " + esc(v.candidatura.obs) : "";
+    return `<div class="situacao st-${esc(st)}">${ROTULO[st] || esc(st)}${d ? " em " + new Date(d + "T12:00:00").toLocaleDateString("pt-BR") : ""}${obs}</div>`;
+  }
+  function pedir(ids) {
+    const vs = ids.map(id => DADOS.vagas.find(v => v.id === id)).filter(Boolean);
+    if (!vs.length) return;
+    const hoje = new Date().toLocaleDateString("sv-SE");
+    const titulo = `[Candidatar] ${vs.length === 1 ? vs[0].titulo + " · " + vs[0].empresa : vs.length + " vagas"}`;
+    const corpo = "Pedido de candidatura feito pelo site em " + new Date().toLocaleString("pt-BR") + ".\n\n" +
+      vs.map(v => `- \`${v.id}\` — ${v.titulo} · ${v.empresa}`).join("\n") +
+      "\n\nA automação prepara cada candidatura e só envia depois da confirmação do Alexsander no chat.";
+    window.open(`${REPO}/issues/new?title=${encodeURIComponent(titulo)}&body=${encodeURIComponent(corpo)}`, "_blank", "noopener");
+    vs.forEach(v => { PEDIDOS[v.id] = hoje; SEL.delete(v.id); });
+    try { localStorage.setItem("pedidosCandidatura", JSON.stringify(PEDIDOS)); } catch (e) {}
+    render();
+  }
+  function atualizarSel() {
+    const b = $("candSel"); b.hidden = SEL.size < 2;
+    b.textContent = `Candidatar (${SEL.size})`;
+  }
+  $("candSel").addEventListener("click", () => pedir([...SEL]));
+  $("lista").addEventListener("change", e => {
+    const c = e.target.closest("[data-sel]"); if (!c) return;
+    c.checked ? SEL.add(c.dataset.sel) : SEL.delete(c.dataset.sel);
+    c.closest(".vaga").classList.toggle("selecionada", c.checked);
+    atualizarSel();
+  });
+  $("lista").addEventListener("click", e => {
+    const b = e.target.closest("[data-candidatar]"); if (b) pedir([b.dataset.candidatar]);
+  });
 
   // Escolha de plataforma quando a mesma vaga está em mais de um site
   const modal = $("escolha");

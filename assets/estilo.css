@@ -201,3 +201,22 @@ footer.rodape { max-width:1180px; margin:0 auto; padding:29px 24px; }
 @media (max-width:1100px) { .bar .meta { display:none; } }
 @media (max-width:800px) { .bar { padding:14px 20px; } footer.rodape { padding:24px 20px; } }
 @media (max-width:800px) { .bar .atualizar { margin-left:auto; margin-right:10px; padding:7px 12px; } .bar .menu-btn { margin-left:0; } }
+
+/* Candidatura: seleção em lote e situação */
+.titulo-vaga { display:flex; gap:14px; align-items:flex-start; }
+.sel { display:inline-flex; margin-top:4px; cursor:pointer; }
+.sel input { appearance:none; width:20px; height:20px; border:1px solid var(--dim); border-radius:6px; background:transparent; cursor:pointer; display:grid; place-content:center; transition:border-color .2s, background .2s; }
+.sel input:hover { border-color:var(--acid); }
+.sel input:checked { background:var(--acid); border-color:var(--acid); }
+.sel input:checked::after { content:"✓"; color:var(--ink); font:700 13px Manrope, Arial, sans-serif; }
+.sel input:focus-visible { outline:1px dashed var(--acid); outline-offset:3px; }
+.visually-hidden { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
+.vaga.selecionada { border-color:var(--acid); }
+.btn.candidatar { border-color:var(--mint); color:var(--mint); }
+.btn.candidatar:hover { background:var(--mint); color:var(--ink); border-color:var(--mint); }
+.candidatar-sel { align-self:center; }
+.situacao { display:inline-block; margin-top:8px; font:500 10px "DM Mono", monospace; letter-spacing:.6px; text-transform:uppercase; padding:4px 8px; border:1px solid var(--line); color:var(--dim); }
+.situacao.st-pedido, .situacao.st-solicitada { color:#ffc46b; border-color:#ffc46b66; }
+.situacao.st-enviada { color:var(--mint); border-color:#70f0c666; }
+.situacao.st-erro { color:#ff8a7a; border-color:#ff8a7a66; }
+.candidatar-sel[hidden] { display:none; }
