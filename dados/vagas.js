@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T20:12:54-03:00",
+ "atualizado_em": "2026-11-24T23:08:39-03:00",
  "vagas": [
   {
    "id": "linkedin-4494150447",
@@ -1543,6 +1543,32 @@ window.VAGAS_DADOS = {
    "curriculo": "curriculos/gupy-12908225.pdf"
   },
   {
+   "id": "whatsapp-dadosbsb-20261118-nexmuv",
+   "dia": "2026-11-18",
+   "titulo": "Analista de Dados / BI - Pleno",
+   "empresa": "Nexmuv",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "WhatsApp (Dados BSB)"
+   ],
+   "link": "https://web.whatsapp.com/",
+   "links": {
+    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+   },
+   "descricao": "Vaga divulgada no grupo de WhatsApp Dados BSB em 18/11/2026 (vaga urgente).\nLocal: São José dos Pinhais - PR (Home Office). Horário: segunda a sexta, 9h às 18h. Contratação: prestador PJ.\nRequisitos:\nSQL avançado: joins, CTEs, window functions, agregações, subqueries e otimização de consultas;\nExcel intermediário/avançado: tabelas dinâmicas, PROCX/PROCV, SOMASES, fórmulas aninhadas, Power Query e gráficos;\nDatabricks: SQL Editor, notebooks e SQL Warehouse; navegação em catálogos e tabelas (Unity Catalog);\ndbt: models, sources, testes (unique, not_null, relationships), documentação, ref e macros simples;\nPower BI: modelagem de dados (relacionamentos, star schema), DAX (medidas, CALCULATE, inteligência de tempo), Power Query e publicação no Power BI Service;\nMetabase: perguntas, filtros, dashboards, consultas SQL nativas e controle de acesso;\nModelagem analítica; estatística básica (média, mediana, desvio-padrão, percentis, correlação, tendência);\nVisualização: boas práticas de gráficos e dashboards;\nVersionamento: Git básico para o projeto dbt (branches e pull requests).\nComo se candidatar: enviar CV/LinkedIn + pretensão salarial PJ por e-mail para a recrutadora da Nexmuv (contato no post do grupo).",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 6.000 – R$ 9.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/whatsapp-dadosbsb-20261118-nexmuv.pdf"
+  },
+  {
    "id": "linkedin-4491154567",
    "dia": "2026-11-18",
    "titulo": "Desenvolvedor BI Pleno",
@@ -2897,6 +2923,32 @@ window.VAGAS_DADOS = {
    "curriculo": "curriculos/indeed-5a1e5b31b1645e8e.pdf"
   },
   {
+   "id": "whatsapp-dadosbsb-20261113-intel-mercado",
+   "dia": "2026-11-13",
+   "titulo": "Analista de Inteligência de Mercado (BI)",
+   "empresa": "Empresa não informada (indicação no grupo Dados BSB)",
+   "contrato": "PJ",
+   "local": "Brasília, DF",
+   "modalidade": "Híbrido",
+   "plataformas": [
+    "WhatsApp (Dados BSB)"
+   ],
+   "link": "https://web.whatsapp.com/",
+   "links": {
+    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+   },
+   "descricao": "Vaga divulgada por um membro do grupo de WhatsApp Dados BSB em 13/11/2026 (indicação interna; o gestor está analisando os indicados).\nLocal: Asa Norte (601), Brasília/DF. Presencial às terças e quintas, das 10h às 19h. PJ R$ 8 mil + benefícios.\nAtividades:\n- Implementação e gestão de ferramentas de Business Intelligence (Power BI e SQL) e IA analítica.\n- Automação de processos para eliminar a geração manual de relatórios.\n- Governança, higiene e validação das métricas dos sistemas internos (TI/Financeiro).\n- Garantir a integridade dos dados para a tomada de decisão.\n- Acompanhamento de indicadores críticos (sales forecast, taxa de conversão e receita líquida).\n- Análise de rentabilidade projetada de propostas comerciais (PBT).\nRequisitos obrigatórios: domínio de ferramentas de IA; Excel avançado; experiência prática com Power BI; metodologias de planejamento e análise de dados; entendimento de DRE, receita bruta/líquida, margens e precificação de serviços; noções de estatística aplicada a negócios (regressão, médias ponderadas, séries temporais); residir em Brasília.\nComo se candidatar: falar com quem divulgou a vaga no grupo.",
+   "tipo": "analista",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 8.000/mês (PJ) + benefícios",
+    "origem": "divulgado",
+    "fonte_nome": "Descrição da vaga",
+    "fonte_url": ""
+   },
+   "curriculo": "curriculos/whatsapp-dadosbsb-20261113-intel-mercado.pdf"
+  },
+  {
    "id": "gupy-12879619",
    "dia": "2026-11-12",
    "titulo": "Engenheiro de Dados Multicloud",
@@ -2999,6 +3051,32 @@ window.VAGAS_DADOS = {
     "fonte_url": ""
    },
    "curriculo": "curriculos/linkedin-4487945636.pdf"
+  },
+  {
+   "id": "whatsapp-dadosbsb-20261110-gcp",
+   "dia": "2026-11-10",
+   "titulo": "Data Engineer – GCP",
+   "empresa": "Empresa não informada (subcontratação para projeto com o Google)",
+   "contrato": "PJ",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "WhatsApp (Dados BSB)"
+   ],
+   "link": "https://web.whatsapp.com/",
+   "links": {
+    "WhatsApp (Dados BSB)": "https://web.whatsapp.com/"
+   },
+   "descricao": "Vaga divulgada no grupo de WhatsApp Dados BSB em 10/11/2026.\nData Engineer com inglês avançado/fluente para atuar em um projeto com o Google.\nRequisitos e ferramentas: experiência com Google Cloud Platform (GCP); conhecimento em BigQuery, Dataflow ou Looker; experiência com Data Platform on GCP; Data Governance é diferencial; inglês avançado/fluente.\nModelo de atuação: 100% remoto. Horário: comercial Brasil ou GMT-5 (11h às 20h). Contratação: PJ – subcontratação. Início imediato. Duração: até 31/12, com possibilidade de extensão.\nComo se candidatar: enviar currículo pelo WhatsApp da recrutadora (contato no post do grupo).",
+   "tipo": "engenheiro",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/whatsapp-dadosbsb-20261110-gcp.pdf"
   },
   {
    "id": "linkedin-4487947895",
