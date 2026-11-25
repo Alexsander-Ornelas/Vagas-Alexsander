@@ -3284,7 +3284,8 @@ window.STATUS_DADOS = {
    "observacao": "Recebimento confirmado pela Chainlink Labs (Ashby) por e-mail em 24/11",
    "link": "https://www.linkedin.com/jobs/view/4478511422/",
    "fonte_email": true,
-   "automatica": true
+   "automatica": true,
+   "aplicada_em": "2026-11-24T23:56:17-03:00"
   }
  ],
  "plataformas": [

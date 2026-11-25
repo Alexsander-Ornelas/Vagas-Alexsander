@@ -186,7 +186,8 @@ window.VAGAS_DADOS = {
    "candidatura": {
     "status": "enviada",
     "data": "2026-11-24",
-    "obs": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)"
+    "obs": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)",
+    "aplicada_em": "2026-11-24T23:56:17-03:00"
    }
   },
   {
