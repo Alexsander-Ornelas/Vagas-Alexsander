@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-25T00:12:44-03:00",
+ "atualizado_em": "2026-11-25T04:13:05-03:00",
  "vagas": [
   {
    "id": "linkedin-4494466246",
@@ -89,11 +89,13 @@ window.VAGAS_DADOS = {
    "local": "Brasil",
    "modalidade": "Remoto",
    "plataformas": [
-    "LinkedIn"
+    "LinkedIn",
+    "Indeed"
    ],
    "link": "https://www.linkedin.com/jobs/view/4494730634/",
    "links": {
-    "LinkedIn": "https://www.linkedin.com/jobs/view/4494730634/"
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494730634/",
+    "Indeed": "https://br.indeed.com/viewjob?jk=bfe7eec45cf34016"
    },
    "descricao": "Why Keyrus, Why Now!\n A Keyrus é um grupo internacional com 2.800 consultores e especialistas em 28 países , construído sobre uma convicção: a IA não transforma empresas. A inteligência arquitetada transforma.\n Há mais de 30 anos, construímos as bases de dados que tornam os sistemas inteligentes possíveis, projetando o Sistema Operacional da Empresa Inteligente, onde a inteligência está incorporada ao núcleo dos processos de negócio para criar valor sustentável: operacionalizamos a inteligência.\n A IA não substitui os seres humanos. Ela nos reposiciona em um lugar que nenhum sistema pode alcançar: compreender, decidir, criar e inovar.\nNa Keyrus, você não desenvolverá apenas habilidades; desenvolverá discernimento. Sua expertise se fortalece a cada sistema que você projeta, a cada desafio de negócio que ajuda a resolver e a cada implementação que evolui a partir dos aprendizados anteriores.\nCom o tempo, você se tornará um dos profissionais mais raros da era da inteligência: alguém capaz de conectar dados, IA e tomada de decisão humana em escala, entre diferentes setores, mercados e geografias.\nEsta não é apenas uma posição. É uma disciplina que você domina e uma história que ajuda a escrever para se tornar um Arquiteto da Inteligência da Keyrus.\n A tecnologia amplia capacidades. A cultura da Keyrus diferencia. A excelência na execução conecta ambas.\n O QUE VOCÊ IRÁ ARQUITETAR\n Esta posição combina visão arquitetural, profundidade técnica e atuação consultiva. Buscamos profissionais capazes de transformar desafios complexos em soluções de dados escaláveis, modernas e orientadas a resultados.\n QUEM VOCÊ É\n Você é um profissional experiente que combina conhecimento técnico com visão estratégica de negócio.\nVocê entende que dados são a base para decisões mais inteligentes e para a transformação das organizações.\nVocê consegue navegar com naturalidade entre discussões arquiteturais, implementação técnica e relacionamento com stakeholders.\nVocê gosta de estruturar ambientes complexos, criar padrões e impulsionar a evolução tecnológica.\nVocê equilibra pragmatismo e inovação, priorizando soluções que geram impacto real.\nVocê compartilha conhecimento e contribui para o crescimento técnico das equipes ao seu redor.\nVocê possui perfil consultivo, analítico e orientado à resolução de problemas.\n O QUE VOCÊ TRAZ\n Buscamos um(a) Data Engineer Pleno para atuar na sustentação e operação de plataformas de dados, com foco em ambientes Databricks e Snowflake .\nA pessoa será r",
    "tipo": "engenheiro",
