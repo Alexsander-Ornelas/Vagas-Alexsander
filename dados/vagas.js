@@ -441,7 +441,11 @@ window.VAGAS_DADOS = {
     "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
     "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
    },
-   "curriculo": "curriculos/linkedin-4494085506.pdf"
+   "curriculo": "curriculos/linkedin-4494085506.pdf",
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "linkedin-4491708333",
@@ -651,7 +655,11 @@ window.VAGAS_DADOS = {
    "links": {
     "LinkedIn": "https://www.linkedin.com/jobs/view/4493901847/"
    },
-   "internacional": false
+   "internacional": false,
+   "candidatura": {
+    "status": "solicitada",
+    "data": "2026-11-25"
+   }
   },
   {
    "id": "deloitte-4493938219",
