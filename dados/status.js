@@ -1,6 +1,6 @@
 // Arquivo reescrito pela automação. Não editar à mão.
 window.STATUS_DADOS = {
- "atualizado_em": "2026-11-25T00:01:53-03:00",
+ "atualizado_em": "2026-11-25T00:12:55-03:00",
  "candidaturas": [
   {
    "titulo": "Engenheiro de Dados SR (Integração SAP)",
@@ -3281,8 +3281,9 @@ window.STATUS_DADOS = {
    "etapa": "Candidatura enviada pela automação (pedido pelo site) · site da empresa (Ashby)",
    "etapa_atual": null,
    "etapas_total": null,
-   "observacao": "Enviada pelo site da Chainlink Labs em 24/11 (em inglês)",
-   "link": "https://www.linkedin.com/jobs/view/4478511422/"
+   "observacao": "Recebimento confirmado pela Chainlink Labs (Ashby) por e-mail em 24/11",
+   "link": "https://www.linkedin.com/jobs/view/4478511422/",
+   "fonte_email": true
   },
   {
    "titulo": "Data Analyst (Spark & SQL) - Remote Work",
@@ -3333,5 +3334,5 @@ window.STATUS_DADOS = {
    "conectada": true
   }
  ],
- "email_lido_em": "Gmail (ornelasalexsander@gmail.com), lido em 24/11/2026"
+ "email_lido_em": "Gmail (ornelasalexsander@gmail.com), lido em 25/11/2026"
 };

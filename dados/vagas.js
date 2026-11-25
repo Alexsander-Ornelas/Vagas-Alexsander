@@ -1,7 +1,33 @@
 // Arquivo reescrito pela automação a cada rodada. Não editar à mão.
 window.VAGAS_DADOS = {
- "atualizado_em": "2026-11-24T23:08:39-03:00",
+ "atualizado_em": "2026-11-25T00:12:44-03:00",
  "vagas": [
+  {
+   "id": "linkedin-4494466246",
+   "dia": "2026-11-25",
+   "titulo": "Engenheiro de Dados Pleno | Databricks (Remoto)",
+   "empresa": "AGGRANDIZE",
+   "contrato": "CLT",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "LinkedIn"
+   ],
+   "link": "https://www.linkedin.com/jobs/view/4494466246/",
+   "links": {
+    "LinkedIn": "https://www.linkedin.com/jobs/view/4494466246/"
+   },
+   "descricao": "A Aggrandize (Platform Engineering, Data Analytics, Modern Applications e Cybersecurity) busca Engenheiro(a) de Dados Pleno, 100% remoto, modalidade CLT.\nO seu papel no time:\n- Atuar em squads construindo, evoluindo e sustentando soluções de dados;\n- Levantar requisitos com as áreas de negócio;\n- Desenvolver, manter e otimizar pipelines de dados com Databricks e Azure Data Factory;\n- Transformar e processar dados com SQL e PySpark;\n- Estruturar ambientes Datalakehouse (camadas e boas práticas);\n- Contribuir com modelagem, qualidade, integridade e disponibilização dos dados.\nHard skills: Databricks; Azure Data Factory; SQL; PySpark; modelagem de dados; Datalakehouse; pipelines com Databricks e/ou Data Factory; boas práticas e qualidade de dados; trabalho em squads.\nBenefícios: VR/VA R$ 42/dia, auxílio flex R$ 220/mês, TotalPass, plano de saúde e odontológico, seguro de vida, PLR, day off de aniversário, certificações custeadas.",
+   "tipo": "engenheiro",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 101 – R$ 109/hora (média R$ 105/hora)",
+    "origem": "pesquisado",
+    "fonte_nome": "Glassdoor: Aggrandize, cargo Engenheiro de Dados (2 salários enviados)",
+    "fonte_url": "https://www.glassdoor.com.br/Sal%C3%A1rio/Aggrandize-Engenheiro-De-Dados-Sal%C3%A1rios-E2771325_D_KO11,30.htm"
+   },
+   "curriculo": "curriculos/linkedin-4494466246.pdf"
+  },
   {
    "id": "linkedin-4494150447",
    "dia": "2026-11-24",
@@ -193,6 +219,32 @@ window.VAGAS_DADOS = {
     "data": "2026-11-25",
     "obs": "Faltam os testes Algorithms e OOP Proficiency para ativar a candidatura"
    }
+  },
+  {
+   "id": "indeed-231d5fed1aa67b66",
+   "dia": "2026-11-24",
+   "titulo": "Engenheiro(a) de Analytics",
+   "empresa": "Arbit",
+   "contrato": "Não informado",
+   "local": "Brasil",
+   "modalidade": "Remoto",
+   "plataformas": [
+    "Indeed"
+   ],
+   "link": "https://br.indeed.com/viewjob?jk=231d5fed1aa67b66",
+   "links": {
+    "Indeed": "https://br.indeed.com/viewjob?jk=231d5fed1aa67b66"
+   },
+   "descricao": "Engenheiro(a) de Analytics na Arbit — Home Office (anúncio com sede em São Paulo, SP).\nQualificações: superior completo em áreas de Tecnologia da Informação; inglês intermediário (B1).\nRequisitos: experiência sólida com Power BI e Analytics; Microsoft Fabric; Azure Data Factory, Azure Databricks, Azure DevOps.\nBenefícios: convênio médico e odontológico, VR, Gympass, home office e subsídios para capacitação.",
+   "tipo": "engenheiro",
+   "internacional": false,
+   "salario": {
+    "valor": "R$ 9.000 – R$ 13.000/mês",
+    "origem": "pesquisado",
+    "fonte_nome": "Estimativa de mercado por cargo e nível (JobRise 2026 / Jooble); a empresa não divulga faixa",
+    "fonte_url": "https://jobrise.io/pt/blog/tabela-de-salarios-tech-brasil-2026/"
+   },
+   "curriculo": "curriculos/indeed-231d5fed1aa67b66.pdf"
   },
   {
    "id": "linkedin-4493049313",
